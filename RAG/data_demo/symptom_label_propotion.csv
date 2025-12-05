@@ -1,0 +1,1923 @@
+symptom_label,test_step,cnt,total_cnt,ratio
+AC cycle system Failed,FAT,27,54,0.5
+AC cycle system Failed,FW update,21,54,0.39
+AC cycle system Failed,PRETEST,4,54,0.07
+AC cycle system Failed,RUNIN,1,54,0.02
+AC cycle system Failed,SDC,1,54,0.02
+AMD CPU Power Virus Test Failed,RUNIN,11,20,0.55
+AMD CPU Power Virus Test Failed,SDC,9,20,0.45
+AMPTTKv30-timeout,SDC,2,2,1.0
+ASYNC-STEP-STATUS-RUNNING,FAT,5,9,0.56
+ASYNC-STEP-STATUS-RUNNING,PRETEST,4,9,0.44
+Aborted by operator,FAT,1,1,1.0
+Attach booting logs to OTC failed.,FW update,560,1106,0.51
+Attach booting logs to OTC failed.,RUNIN,173,1106,0.16
+Attach booting logs to OTC failed.,SDC,140,1106,0.13
+Attach booting logs to OTC failed.,FAT,86,1106,0.08
+Attach booting logs to OTC failed.,RMA_BFT,64,1106,0.06
+Attach booting logs to OTC failed.,L10-ORT-nDRT-THB,36,1106,0.03
+Attach booting logs to OTC failed.,PRETEST,21,1106,0.02
+Attach booting logs to OTC failed.,BFT,26,1106,0.02
+Attach file Failed,SDC,1,1,1.0
+Bus Check Test Failed,FAT,35,35,1.0
+CPU SN blacklist check Failed,FV,12,12,1.0
+CPU SN is not assigned,BFT,47,47,1.0
+CPU functional Test Failed,BFT,24,29,0.83
+CPU functional Test Failed,FAT,5,29,0.17
+CPU info not match,FAT,26,38,0.68
+CPU info not match,PRETEST,12,38,0.32
+CPU load Test Failed,RUNIN,57,80,0.71
+CPU load Test Failed,FAT,12,80,0.15
+CPU load Test Failed,SDC,9,80,0.11
+CPU load Test Failed,BFT,1,80,0.01
+CPU load Test Failed,PST,1,80,0.01
+CPU location validation failure,FAT,654,927,0.71
+CPU location validation failure,PRETEST,257,927,0.28
+CPU location validation failure,RUNIN,9,927,0.01
+CPU location validation failure,SDC,6,927,0.01
+CPU location validation failure,Diorite FWU,1,927,0.0
+CPU serial number failed,BFT,231,231,1.0
+Capture Diorite Console and Attach to log Failed,FW update,715,2744,0.26
+Capture Diorite Console and Attach to log Failed,SDC,693,2744,0.25
+Capture Diorite Console and Attach to log Failed,FAT,552,2744,0.2
+Capture Diorite Console and Attach to log Failed,RUNIN,551,2744,0.2
+Capture Diorite Console and Attach to log Failed,PRETEST,233,2744,0.08
+Caught AttributeError exception.,BFT,1,1,1.0
+Caught BlockingIOError exception.,FAT,3,3,1.0
+Caught BrokenPipeError exception.,BFT,3,3,1.0
+Caught ConnectionRefusedError exception.,RUNIN,4,7,0.57
+Caught ConnectionRefusedError exception.,FAT,2,7,0.29
+Caught ConnectionRefusedError exception.,BFT,1,7,0.14
+Caught ConnectionResetError exception.,BFT,749,754,0.99
+Caught ConnectionResetError exception.,RMA_BFT,1,754,0.0
+Caught ConnectionResetError exception.,FW update,3,754,0.0
+Caught ConnectionResetError exception.,FAT,1,754,0.0
+Caught EOFError exception.,BFT,281,335,0.84
+Caught EOFError exception.,FW update,41,335,0.12
+Caught EOFError exception.,FAT,2,335,0.01
+Caught EOFError exception.,RUNIN,2,335,0.01
+Caught EOFError exception.,RMA_FBT,4,335,0.01
+Caught EOFError exception.,RMA_BFT,5,335,0.01
+Caught KeyError exception.,PRETEST,5,5,1.0
+Caught OSError exception.,BFT,322,1149,0.28
+Caught OSError exception.,FAT,262,1149,0.23
+Caught OSError exception.,PRETEST,211,1149,0.18
+Caught OSError exception.,RUNIN,197,1149,0.17
+Caught OSError exception.,SDC,76,1149,0.07
+Caught OSError exception.,FW update,61,1149,0.05
+Caught OSError exception.,RMA_BFT,20,1149,0.02
+Caught TimeoutError exception.,FW update,7,14,0.5
+Caught TimeoutError exception.,RUNIN,3,14,0.21
+Caught TimeoutError exception.,FAT,3,14,0.21
+Caught TimeoutError exception.,PRETEST,1,14,0.07
+Caught booting_fail_eth0_no_up exception.,BFT,2,2,1.0
+Caught booting_fail_netboot_nothing exception.,BFT,97,159,0.61
+Caught booting_fail_netboot_nothing exception.,FAT,28,159,0.18
+Caught booting_fail_netboot_nothing exception.,FW update,22,159,0.14
+Caught booting_fail_netboot_nothing exception.,Default Test Step,8,159,0.05
+Caught booting_fail_netboot_nothing exception.,RUNIN,4,159,0.03
+Caught booting_fail_reboot exception.,BFT,7,9,0.78
+Caught booting_fail_reboot exception.,Default Test Step,2,9,0.22
+Caught switch_console_fail exception.,BFT,5,5,1.0
+Caught timeout exception.,SDC,7,15,0.47
+Caught timeout exception.,FAT,4,15,0.27
+Caught timeout exception.,RUNIN,3,15,0.2
+Caught timeout exception.,BFT,1,15,0.07
+Check Agora Mac Address fail !,BFT,536,536,1.0
+Check BIOS fail,BFT,130,133,0.98
+Check BIOS fail,Default Test Step,3,133,0.02
+Check DUT connections Failed,FAT,3575,6150,0.58
+Check DUT connections Failed,RUNIN,871,6150,0.14
+Check DUT connections Failed,FW update,880,6150,0.14
+Check DUT connections Failed,Diorite FWU,354,6150,0.06
+Check DUT connections Failed,PRETEST,279,6150,0.05
+Check DUT connections Failed,SDC,184,6150,0.03
+Check DUT connections Failed,Default Test Step,1,6150,0.0
+Check DUT connections Failed,PST,6,6150,0.0
+Check Firmware Fail,FAT,534,698,0.77
+Check Firmware Fail,PRETEST,113,698,0.16
+Check Firmware Fail,BFT,45,698,0.06
+Check Firmware Fail,SDC,4,698,0.01
+Check Firmware Fail,RUNIN,2,698,0.0
+Check IO Module Sensor Fail!,SDC,14,22,0.64
+Check IO Module Sensor Fail!,RUNIN,3,22,0.14
+Check IO Module Sensor Fail!,PRETEST,3,22,0.14
+Check IO Module Sensor Fail!,FAT,1,22,0.05
+Check IO Module Sensor Fail!,BFT,1,22,0.05
+Check IPMI Chassis fail,BFT,1,2,0.5
+Check IPMI Chassis fail,FAT,1,2,0.5
+Check IPMI Power Status fail,BFT,8,8,1.0
+Check PID,RUNIN,2,2,1.0
+Check TDP Failed,FAT,6,6,1.0
+Check VR version fail,FW update,152,153,0.99
+Check VR version fail,BFT,1,153,0.01
+Check WH RZ Sensor Fail!,FAT,118,199,0.59
+Check WH RZ Sensor Fail!,PRETEST,38,199,0.19
+Check WH RZ Sensor Fail!,SDC,28,199,0.14
+Check WH RZ Sensor Fail!,RUNIN,14,199,0.07
+Check WH RZ Sensor Fail!,L10-ORT-nDRT-THB,1,199,0.01
+Check boot number Failed,PRETEST,688,1561,0.44
+Check boot number Failed,FAT,374,1561,0.24
+Check boot number Failed,SDC,210,1561,0.13
+Check boot number Failed,RUNIN,173,1561,0.11
+Check boot number Failed,FW update,116,1561,0.07
+Check firmware fail,BFT,456,476,0.96
+Check firmware fail,FAT,8,476,0.02
+Check firmware fail,FW update,10,476,0.02
+Check firmware fail,Default Test Step,1,476,0.0
+Check firmware fail,RUNIN,1,476,0.0
+Checking BMC boot readiness and get BMC IP Failed,FAT,15612,25497,0.61
+Checking BMC boot readiness and get BMC IP Failed,PRETEST,5403,25497,0.21
+Checking BMC boot readiness and get BMC IP Failed,BFT,1404,25497,0.06
+Checking BMC boot readiness and get BMC IP Failed,FW update,732,25497,0.03
+Checking BMC boot readiness and get BMC IP Failed,RMA_BFT,751,25497,0.03
+Checking BMC boot readiness and get BMC IP Failed,RUNIN,843,25497,0.03
+Checking BMC boot readiness and get BMC IP Failed,SDC,598,25497,0.02
+Checking BMC boot readiness and get BMC IP Failed,L10-ORT-DRDT,41,25497,0.0
+Checking BMC boot readiness and get BMC IP Failed,L10-ORT-nDRT-PTC,3,25497,0.0
+Checking BMC boot readiness and get BMC IP Failed,RMA_FBT,3,25497,0.0
+Checking BMC boot readiness and get BMC IP Failed,Diorite FWU,68,25497,0.0
+Checking BMC boot readiness and get BMC IP Failed,L10-ORT-nDRT-THB,39,25497,0.0
+Checking Williamson cards on unit Failed,BFT,3,3,1.0
+Checking switch & BMC FW on usb#0 Williamson card Failed,BFT,1,1,1.0
+Collect DUT Info Failed,FAT,12,26,0.46
+Collect DUT Info Failed,FW update,5,26,0.19
+Collect DUT Info Failed,RUNIN,4,26,0.15
+Collect DUT Info Failed,PRETEST,4,26,0.15
+Collect DUT Info Failed,SDC,1,26,0.04
+Configuration Check (Hardware) Failed,FAT,218,432,0.5
+Configuration Check (Hardware) Failed,PRETEST,63,432,0.15
+Configuration Check (Hardware) Failed,RUNIN,59,432,0.14
+Configuration Check (Hardware) Failed,FW update,46,432,0.11
+Configuration Check (Hardware) Failed,SDC,34,432,0.08
+Configuration Check (Hardware) Failed,Diorite FWU,12,432,0.03
+Configuration Check (Software),SDC,98,176,0.56
+Configuration Check (Software),RUNIN,32,176,0.18
+Configuration Check (Software),BFT,31,176,0.18
+Configuration Check (Software),RMA_BFT,6,176,0.03
+Configuration Check (Software),FAT,4,176,0.02
+Configuration Check (Software),RMA_FBT,4,176,0.02
+Configuration Check (Software),Default Test Step,1,176,0.01
+Configuration Check (Software) failed,FAT,3,5,0.6
+Configuration Check (Software) failed,PRETEST,2,5,0.4
+Create BMC SSH Connection failed,FW update,16,16,1.0
+Create Diorite SSH Connection failed.,FAT,6,7,0.86
+Create Diorite SSH Connection failed.,SDC,1,7,0.14
+Create Host SSH Connection failed,SDC,297,938,0.32
+Create Host SSH Connection failed,FAT,272,938,0.29
+Create Host SSH Connection failed,PRETEST,161,938,0.17
+Create Host SSH Connection failed,RUNIN,111,938,0.12
+Create Host SSH Connection failed,FW update,84,938,0.09
+Create Host SSH Connection failed,BFT,13,938,0.01
+Create Telnet and SSH connection to DUT failed,BFT,12900,15316,0.84
+Create Telnet and SSH connection to DUT failed,RMA_BFT,1267,15316,0.08
+Create Telnet and SSH connection to DUT failed,FAT,430,15316,0.03
+Create Telnet and SSH connection to DUT failed,FW update,246,15316,0.02
+Create Telnet and SSH connection to DUT failed,PRETEST,270,15316,0.02
+Create Telnet and SSH connection to DUT failed,RUNIN,149,15316,0.01
+Create Telnet and SSH connection to DUT failed,Default Test Step,1,15316,0.0
+Create Telnet and SSH connection to DUT failed,SDC,30,15316,0.0
+Create Telnet and SSH connection to DUT failed,RMA_FBT,23,15316,0.0
+Create folder on diag server Failed,FAT,34,34,1.0
+DIMM infos validation failure,FAT,10603,16087,0.66
+DIMM infos validation failure,PRETEST,4660,16087,0.29
+DIMM infos validation failure,RUNIN,361,16087,0.02
+DIMM infos validation failure,Diorite FWU,373,16087,0.02
+DIMM infos validation failure,FV,1,16087,0.0
+DIMM infos validation failure,SDC,77,16087,0.0
+DIMM infos validation failure,FW update,12,16087,0.0
+DIMM location validation failure,FAT,534,805,0.66
+DIMM location validation failure,PRETEST,242,805,0.3
+DIMM location validation failure,RUNIN,16,805,0.02
+DIMM location validation failure,Diorite FWU,6,805,0.01
+DIMM location validation failure,SDC,7,805,0.01
+DIMM quantity validation failure,FAT,20,24,0.83
+DIMM quantity validation failure,RUNIN,4,24,0.17
+DMA stress test Failed,PRETEST,1173,1173,1.0
+DUT MAC is invalid,BFT,9,9,1.0
+DUT SN is invalid,BFT,1,1,1.0
+DUT is not for L10 System Test Plan,FAT,37,37,1.0
+DUT is not for Runin Test Plan,RUNIN,3,3,1.0
+DUT is not for SDC Test Plan,SDC,2,2,1.0
+DUT is not for test,PRETEST,3975,5120,0.78
+DUT is not for test,FAT,724,5120,0.14
+DUT is not for test,RUNIN,144,5120,0.03
+DUT is not for test,FW update,150,5120,0.03
+DUT is not for test,Diorite FWU,62,5120,0.01
+DUT is not for test,SDC,60,5120,0.01
+DUT is not for test,FV,2,5120,0.0
+DUT is not for test,PST,3,5120,0.0
+Diorite Fan fail,PRETEST,1,1,1.0
+Diorite Firmware Update on all slots Failed,PRETEST,101,120,0.84
+Diorite Firmware Update on all slots Failed,FAT,19,120,0.16
+Diorite Firmware Update via htool Failed,Diorite FWU,3,3,1.0
+Diorite PCIe link speed and width check,PRETEST,2627,2627,1.0
+Diorite PCIe link speed and width check Failed,PRETEST,4,4,1.0
+Diorite Part Number,FAT,235,235,1.0
+Diorite SSH Connection Failed,FAT,18054,25416,0.71
+Diorite SSH Connection Failed,PRETEST,5062,25416,0.2
+Diorite SSH Connection Failed,RUNIN,1307,25416,0.05
+Diorite SSH Connection Failed,SDC,521,25416,0.02
+Diorite SSH Connection Failed,FW update,419,25416,0.02
+Diorite SSH Connection Failed,L10-ORT-nDRT-THB,7,25416,0.0
+Diorite SSH Connection Failed,L10-ORT-DRDT,8,25416,0.0
+Diorite SSH Connection Failed,L10-ORT-nDRT-PTC,38,25416,0.0
+Diorite Sanity Check - FRU Failed,FAT,31,102,0.3
+Diorite Sanity Check - FRU Failed,RUNIN,22,102,0.22
+Diorite Sanity Check - FRU Failed,FW update,19,102,0.19
+Diorite Sanity Check - FRU Failed,PRETEST,18,102,0.18
+Diorite Sanity Check - FRU Failed,SDC,12,102,0.12
+Diorite Sanity Check - mac address-table on switch side Failed,FAT,40,70,0.57
+Diorite Sanity Check - mac address-table on switch side Failed,PRETEST,23,70,0.33
+Diorite Sanity Check - mac address-table on switch side Failed,RUNIN,6,70,0.09
+Diorite Sanity Check - mac address-table on switch side Failed,FW update,1,70,0.01
+Diorite Sanity Check Failed,FAT,3147,5609,0.56
+Diorite Sanity Check Failed,PRETEST,2071,5609,0.37
+Diorite Sanity Check Failed,RUNIN,193,5609,0.03
+Diorite Sanity Check Failed,SDC,95,5609,0.02
+Diorite Sanity Check Failed,FW update,98,5609,0.02
+Diorite Sanity Check Failed,Diorite FWU,5,5609,0.0
+Diorite Serial Number,FAT,1698,1698,1.0
+Diorite console log can't be generated,RUNIN,2,8,0.25
+Diorite console log can't be generated,FAT,2,8,0.25
+Diorite console log can't be generated,SDC,2,8,0.25
+Diorite console log can't be generated,FW update,2,8,0.25
+Diorite firmware check on usb_loc '1-1.1' Failed,FAT,79,118,0.67
+Diorite firmware check on usb_loc '1-1.1' Failed,PRETEST,37,118,0.31
+Diorite firmware check on usb_loc '1-1.1' Failed,L10-ORT-nDRT-THB,1,118,0.01
+Diorite firmware check on usb_loc '1-1.1' Failed,Diorite FWU,1,118,0.01
+Diorite firmware check on usb_loc '1-1.2' Failed,PRETEST,35,53,0.66
+Diorite firmware check on usb_loc '1-1.2' Failed,FAT,18,53,0.34
+Diorite firmware check on usb_loc '1-1.7.1' Failed,FAT,23,38,0.61
+Diorite firmware check on usb_loc '1-1.7.1' Failed,PRETEST,14,38,0.37
+Diorite firmware check on usb_loc '1-1.7.1' Failed,Diorite FWU,1,38,0.03
+Diorite firmware check on usb_loc '1-1.7.2' Failed,FAT,67,109,0.61
+Diorite firmware check on usb_loc '1-1.7.2' Failed,PRETEST,41,109,0.38
+Diorite firmware check on usb_loc '1-1.7.2' Failed,Diorite FWU,1,109,0.01
+Diorite firmware update on usb_loc '1-1.1' Failed,FAT,15,26,0.58
+Diorite firmware update on usb_loc '1-1.1' Failed,PRETEST,11,26,0.42
+Diorite firmware update on usb_loc '1-1.7.2' Failed,PRETEST,5,5,1.0
+Diorite location validation failure,PRETEST,3327,3775,0.88
+Diorite location validation failure,FAT,259,3775,0.07
+Diorite location validation failure,RUNIN,143,3775,0.04
+Diorite location validation failure,SDC,45,3775,0.01
+Diorite location validation failure,Diorite FWU,1,3775,0.0
+Dump lpcsnoop service log after BIOS update Failed,FW update,1,1,1.0
+Dump lpcsnoop service log after BMC update Failed,FW update,45,45,1.0
+Dump lpcsnoop service log after reboot Failed,FAT,20,38,0.53
+Dump lpcsnoop service log after reboot Failed,RUNIN,18,38,0.47
+Dump lpcsnoop service log at initial boot Failed,BFT,97,379,0.26
+Dump lpcsnoop service log at initial boot Failed,FAT,95,379,0.25
+Dump lpcsnoop service log at initial boot Failed,PRETEST,77,379,0.2
+Dump lpcsnoop service log at initial boot Failed,SDC,36,379,0.09
+Dump lpcsnoop service log at initial boot Failed,RMA_BFT,31,379,0.08
+Dump lpcsnoop service log at initial boot Failed,RUNIN,29,379,0.08
+Dump lpcsnoop service log at initial boot Failed,FW update,13,379,0.03
+Dump lpcsnoop service log at initial boot Failed,RMA_FBT,1,379,0.0
+Dump lpcsnoop service log at loop #1 Failed,RUNIN,12,12,1.0
+Dump lpcsnoop service log at loop #4 Failed,L10-ORT-nDRT-THB,9,9,1.0
+Establish BMC connection failed,BFT,134,135,0.99
+Establish BMC connection failed,RMA_BFT,1,135,0.01
+Exception,BFT,31,36,0.86
+Exception,RUNIN,5,36,0.14
+Exception.,Default Test Step,6,10,0.6
+Exception.,BFT,4,10,0.4
+FRU infos validation failure,PRETEST,4611,8602,0.54
+FRU infos validation failure,FAT,3626,8602,0.42
+FRU infos validation failure,RUNIN,218,8602,0.03
+FRU infos validation failure,SDC,116,8602,0.01
+FRU infos validation failure,Diorite FWU,17,8602,0.0
+FRU infos validation failure,FW update,14,8602,0.0
+FRU quantity validation failure,FAT,40,61,0.66
+FRU quantity validation failure,PRETEST,11,61,0.18
+FRU quantity validation failure,RUNIN,6,61,0.1
+FRU quantity validation failure,SDC,4,61,0.07
+FRU validation,BFT,135,172,0.78
+FRU validation,RMA_BFT,36,172,0.21
+FRU validation,RMA_FBT,1,172,0.01
+FRU validation failed,BFT,2,2,1.0
+Fail to check diorite 'PDFCTH224610556' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFCTH241102259' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH242117538' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH242202602' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH242608990' FAN duty_cycle,FAT,2,2,1.0
+Fail to check diorite 'PDFCTH243000296' FAN duty_cycle,PRETEST,2,2,1.0
+Fail to check diorite 'PDFCTH243311644' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFCTH243318343' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFCTH243603873' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFCTH243703346' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH244003247' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH244903012' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH245007179' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFCTH250210196' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH250603111' FAN duty_cycle,FAT,2,2,1.0
+Fail to check diorite 'PDFCTH252202526' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFCTH252521719' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFCTH252902934' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFQMB241900481' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFQMB242603720' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFQMB243607579' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFQMB251018278' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFQMB251107317' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFQMB251905697' FAN duty_cycle,PRETEST,1,1,1.0
+Fail to check diorite 'PDFQMB252405613' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFQMB253014639' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite 'PDFQMB253209159' FAN duty_cycle,FAT,1,1,1.0
+Fail to check diorite fan,PRETEST,145,272,0.53
+Fail to check diorite fan,FAT,127,272,0.47
+Fail to check diorite nvme,FAT,17,30,0.57
+Fail to check diorite nvme,PRETEST,13,30,0.43
+Fail to check diorite sensor,FAT,58,104,0.56
+Fail to check diorite sensor,PRETEST,46,104,0.44
+Fail to check diorite software,FAT,3,4,0.75
+Fail to check diorite software,PRETEST,1,4,0.25
+Fail to diorite 'PDFCTH223101020'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH223300349'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH223701073'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH224403581'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH224609779'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH224810083'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH225005877'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH225008366'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700003' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700005' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700006' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700008' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700009' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700010' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700015' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700018' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700027' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700028' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700029' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH231700031' FAN RPM:too fast),FAT,1,1,1.0
+Fail to diorite 'PDFCTH232703729'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH232901162'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFCTH233017674'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH233201163'FAN RPM:too slow),PRETEST,3,3,1.0
+Fail to diorite 'PDFCTH234508177'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH234510624'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH240203879'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFCTH240205880'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH240305214'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH240305590'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH240405436'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFCTH240611258'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH241000117'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH241003743'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH241018049'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH241701382'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH241806609'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFCTH241914531'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH242108201'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH242109181'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH242402895'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH242405185'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH242912575'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH243315124'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH243316726'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH243409570'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH243413437'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH243503809'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH243509055'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH243705591'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFCTH244109482'FAN RPM:too slow),FAT,2,2,1.0
+Fail to diorite 'PDFCTH244309582'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH244507702'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH244605335'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH244704076'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH244905626'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH245201540'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH250504320'FAN RPM:too slow),FAT,2,2,1.0
+Fail to diorite 'PDFCTH250600562'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH250702986'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH250709682'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH250909796'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH251212398'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH251312259'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH251313611'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH251316558'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH251815040'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH252411554'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH252622085'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH252628656'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH252900779'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFCTH253001649'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFCTH253401210'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB242205502'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB242207472'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB242306571'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB242504067'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB242509011'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB242603025'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB242605409'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB242605868'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB242704032'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB242800370'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB243002118'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFQMB243003886'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB243102478'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFQMB243604816'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB243701632'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB243707115'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB244403276'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB244407209'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB244503027'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB244806036'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB244900379'FAN RPM:too slow),FAT,5,5,1.0
+Fail to diorite 'PDFQMB244901321'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB245001022'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB245001709'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB245001901'FAN RPM:too slow),PRETEST,2,2,1.0
+Fail to diorite 'PDFQMB245005126'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB245204570'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB245210539'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB250209040'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB250400351'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB250400534'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB250402038'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB250402882'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB250610099'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB250709509'FAN RPM:too slow),FAT,2,2,1.0
+Fail to diorite 'PDFQMB251008139'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB251016537'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB251204005'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB251213050'FAN RPM:too slow),FAT,2,2,1.0
+Fail to diorite 'PDFQMB251804983'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB251905763'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB252410463'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB252504852'FAN RPM:too slow),PRETEST,1,1,1.0
+Fail to diorite 'PDFQMB252708210'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB252900195'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite 'PDFQMB253001037'FAN RPM:too slow),FAT,1,1,1.0
+Fail to diorite FAN RPM:too slow),FAT,8,8,1.0
+Fail to get diorite FW info,FAT,1,1,1.0
+Failed to get MAC address via telnet,SDC,20,42,0.48
+Failed to get MAC address via telnet,FAT,9,42,0.21
+Failed to get MAC address via telnet,RUNIN,9,42,0.21
+Failed to get MAC address via telnet,FW update,4,42,0.1
+Fan 'fan0' tach,RUNIN,6,11,0.55
+Fan 'fan0' tach,SDC,5,11,0.45
+Fan 'fan1' tach,SDC,7,8,0.88
+Fan 'fan1' tach,RUNIN,1,8,0.13
+Fan 'fan2' tach,SDC,6,9,0.67
+Fan 'fan2' tach,RUNIN,3,9,0.33
+Fan 'fan3' tach,SDC,3,4,0.75
+Fan 'fan3' tach,RUNIN,1,4,0.25
+Fan 'fan4' tach,SDC,7,10,0.7
+Fan 'fan4' tach,RUNIN,3,10,0.3
+Fan 'fan5' tach,SDC,17,23,0.74
+Fan 'fan5' tach,RUNIN,6,23,0.26
+Fan Speed Test Failed,Default Test Step,1,1,1.0
+Foxconn BMC validation,FAT,649,791,0.82
+Foxconn BMC validation,PRETEST,112,791,0.14
+Foxconn BMC validation,Diorite FWU,12,791,0.02
+Foxconn BMC validation,L10-ORT-DRDT,14,791,0.02
+Foxconn BMC validation,L10-ORT-nDRT-PTC,4,791,0.01
+Foxconn BMC validation Failed,FAT,50,76,0.66
+Foxconn BMC validation Failed,PRETEST,26,76,0.34
+GSSD Test Failed 10,FAT,2,2,1.0
+GSSD Test Failed 4,RUNIN,1,1,1.0
+GSSD Test Failed 9,RUNIN,2,2,1.0
+Get Agora IP failed,RUNIN,28,31,0.9
+Get Agora IP failed,FAT,3,31,0.1
+"Get DIMM Size fail: free|grep Mem|tr -s "" ""|cut -d "" "" -f2",FAT,12,22,0.55
+"Get DIMM Size fail: free|grep Mem|tr -s "" ""|cut -d "" "" -f2",BFT,10,22,0.45
+Get Diorite data from SFC components Failed,FAT,5,7,0.71
+Get Diorite data from SFC components Failed,Diorite FWU,2,7,0.29
+Get PE1-PE7 hardware fail,BFT,1,1,1.0
+Get Sata List Error,FAT,2,2,1.0
+Get build type and build ID failed,BFT,6,6,1.0
+HB16 PCIe link speed and width check,PRETEST,7675,7675,1.0
+HB16 PCIe link speed and width check Failed,PRETEST,6623,6623,1.0
+HB16 firmware check Failed,PRETEST,1562,3064,0.51
+HB16 firmware check Failed,FAT,1502,3064,0.49
+HB16 location validation failure,PRETEST,883,1145,0.77
+HB16 location validation failure,FAT,182,1145,0.16
+HB16 location validation failure,RUNIN,51,1145,0.04
+HB16 location validation failure,SDC,24,1145,0.02
+HB16 location validation failure,FW update,5,1145,0.0
+Hardware config check failed,SDC,798,1540,0.52
+Hardware config check failed,RUNIN,289,1540,0.19
+Hardware config check failed,PRETEST,205,1540,0.13
+Hardware config check failed,FAT,165,1540,0.11
+Hardware config check failed,FW update,77,1540,0.05
+Hardware config check failed,Diorite FWU,1,1540,0.0
+Hardware config check failed,BFT,5,1540,0.0
+Havenmap Test Failed,FAT,7,9,0.78
+Havenmap Test Failed,BFT,2,9,0.22
+IMC BUS check Failed,FAT,17,17,1.0
+IMC DNA check Failed,FAT,1,1,1.0
+IMC FRU check Failed,FAT,2,2,1.0
+Invalid OT data format,PRETEST,1,1,1.0
+Invalid data,BFT,21,24,0.88
+Invalid data,Default Test Step,3,24,0.13
+Kernel pretty_name is not matched.,RUNIN,72,169,0.43
+Kernel pretty_name is not matched.,FAT,51,169,0.3
+Kernel pretty_name is not matched.,SDC,18,169,0.11
+Kernel pretty_name is not matched.,BFT,11,169,0.07
+Kernel pretty_name is not matched.,PRETEST,6,169,0.04
+Kernel pretty_name is not matched.,PST,5,169,0.03
+Kernel pretty_name is not matched.,FW update,5,169,0.03
+Kernel pretty_name is not matched.,Default Test Step,1,169,0.01
+LnkCap Width validation,FAT,16,18,0.89
+LnkCap Width validation,Default Test Step,2,18,0.11
+Lower critical limit violated,FAT,1479,2059,0.72
+Lower critical limit violated,BFT,194,2059,0.09
+Lower critical limit violated,RUNIN,136,2059,0.07
+Lower critical limit violated,RMA_BFT,143,2059,0.07
+Lower critical limit violated,SDC,101,2059,0.05
+Lower critical limit violated,RMA_FBT,3,2059,0.0
+Lower critical limit violated,L10-ORT-nDRT-PTC,2,2059,0.0
+Lower critical limit violated,PRETEST,1,2059,0.0
+MAC is out of range,BFT,19,19,1.0
+Maxcorestim Test Failed,SDC,16,17,0.94
+Maxcorestim Test Failed,Default Test Step,1,17,0.06
+Memory Errors Check test fail,FAT,11,13,0.85
+Memory Errors Check test fail,BFT,1,13,0.08
+Memory Errors Check test fail,RMA_BFT,1,13,0.08
+Memory Test with memtester Failed,BFT,93,152,0.61
+Memory Test with memtester Failed,RUNIN,41,152,0.27
+Memory Test with memtester Failed,FAT,18,152,0.12
+Memory read write Test test fail,FAT,2,2,1.0
+Mobo boot failed,BFT,843,1548,0.54
+Mobo boot failed,RMA_BFT,271,1548,0.18
+Mobo boot failed,FAT,227,1548,0.15
+Mobo boot failed,FW update,92,1548,0.06
+Mobo boot failed,PRETEST,57,1548,0.04
+Mobo boot failed,SDC,31,1548,0.02
+Mobo boot failed,RUNIN,25,1548,0.02
+Mobo boot failed,RMA_FBT,2,1548,0.0
+NCSI Test Failed,BFT,70,70,1.0
+NCSI connection fail,BFT,1374,1374,1.0
+NONE,RUNIN,6,12,0.5
+NONE,BFT,4,12,0.33
+NONE,FAT,1,12,0.08
+NONE,PRETEST,1,12,0.08
+Network Performance Check failed,FAT,501,745,0.67
+Network Performance Check failed,BFT,243,745,0.33
+Network Performance Check failed,RMA_BFT,1,745,0.0
+Network Ping Test failed,FAT,5,6,0.83
+Network Ping Test failed,BFT,1,6,0.17
+Number of DIMM is wrong,BFT,4768,6864,0.69
+Number of DIMM is wrong,RMA_BFT,2078,6864,0.3
+Number of DIMM is wrong,RMA_FBT,18,6864,0.0
+PCI Errors Check Fail,BFT,100,105,0.95
+PCI Errors Check Fail,FAT,4,105,0.04
+PCI Errors Check Fail,RMA_BFT,1,105,0.01
+PCI device quantity validation,BFT,449,450,1.0
+PCI device quantity validation,Default Test Step,1,450,0.0
+PCIe Bus check Test Fail,RMA_BFT,347,568,0.61
+PCIe Bus check Test Fail,BFT,202,568,0.36
+PCIe Bus check Test Fail,FAT,16,568,0.03
+PCIe Bus check Test Fail,Default Test Step,3,568,0.01
+PCIe Bus check Test failed,BFT,1822,2176,0.84
+PCIe Bus check Test failed,RMA_BFT,349,2176,0.16
+PCIe Bus check Test failed,Default Test Step,3,2176,0.0
+PCIe Bus check Test failed,RMA_FBT,2,2176,0.0
+PCIe link speed and width check,PRETEST,1,1,1.0
+PCIe link speed and width check Failed,PRETEST,34,34,1.0
+PWM_TACH Test Step0 Fail !,SDC,155,327,0.47
+PWM_TACH Test Step0 Fail !,BFT,77,327,0.24
+PWM_TACH Test Step0 Fail !,RUNIN,57,327,0.17
+PWM_TACH Test Step0 Fail !,FAT,38,327,0.12
+PWM_TACH Test Step1 Fail !,BFT,327,383,0.85
+PWM_TACH Test Step1 Fail !,FAT,30,383,0.08
+PWM_TACH Test Step1 Fail !,RMA_BFT,10,383,0.03
+PWM_TACH Test Step1 Fail !,RUNIN,12,383,0.03
+PWM_TACH Test Step1 Fail !,SDC,3,383,0.01
+PWM_TACH Test Step1 Fail !,Default Test Step,1,383,0.0
+PWM_TACH Test Step2 Fail !,BFT,216,233,0.93
+PWM_TACH Test Step2 Fail !,RMA_BFT,11,233,0.05
+PWM_TACH Test Step2 Fail !,FAT,4,233,0.02
+PWM_TACH Test Step2 Fail !,Default Test Step,2,233,0.01
+PWM_TACH Test Step3 Fail !,BFT,54,56,0.96
+PWM_TACH Test Step3 Fail !,RMA_BFT,2,56,0.04
+PXE config Failed,PRETEST,108,270,0.4
+PXE config Failed,FAT,96,270,0.36
+PXE config Failed,RUNIN,39,270,0.14
+PXE config Failed,FW update,21,270,0.08
+PXE config Failed,SDC,6,270,0.02
+Post Diorite firmware check on all slots Failed,PRETEST,1,1,1.0
+Pre Diorite firmware check on all slots Failed,PRETEST,243,409,0.59
+Pre Diorite firmware check on all slots Failed,FAT,151,409,0.37
+Pre Diorite firmware check on all slots Failed,Diorite FWU,15,409,0.04
+Rainbow Test Failed,RUNIN,7,8,0.88
+Rainbow Test Failed,SDC,1,8,0.13
+Restart PID service Failed,SDC,70,70,1.0
+Rootoftrustmap Test Failed,FAT,52,94,0.55
+Rootoftrustmap Test Failed,BFT,42,94,0.45
+SATA Gen3 cssd_simple_io Test Failed,BFT,6,8,0.75
+SATA Gen3 cssd_simple_io Test Failed,FAT,2,8,0.25
+"SATA fio /dev/sda error > 0,                     , SN: (True, '', ''), Cur: 123",FAT,1,1,1.0
+"SATA fio /dev/sda error > 0,                     , SN: (True, '', ''), Cur: 22",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 11831, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 18739, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 20793, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 21973, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 22551, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 22670, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 42460, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 44338, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 44422, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 45045, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 48087, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 48761, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 50488, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 55425, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 5689, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 58235, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 63067, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 63919, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 65499, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 6553, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 65846, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 67221, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 67394, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 68228, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 70486, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 79573, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 82842, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 99704, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda read BW too slow, Cur: 99860, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 10584, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 11153, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 1120, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 11591, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 12857, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 12929, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 13327, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 13778, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 13961, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 14015, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 14204, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 1654, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 1710, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 1720, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 18172, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 18482, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 20267, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 20413, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 20642, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 2117, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 2191, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 22310, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 23556, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 23747, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 2438, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 25693, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 25950, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 30285, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 31754, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3251, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3265, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3269, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3272, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3278, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3332, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 33561, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 33681, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3419, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 34431, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3507, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 35616, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3572, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3583, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3634, Exp: 100000",BFT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3651, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3661, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 36682, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3724, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3845, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 3885, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 39437, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 39485, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 4103, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 4124, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 426, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 4297, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 4480, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 4589, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 4779, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 493, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 5179, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 5310, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 5334, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 5566, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 60267, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 62003, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 62215, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 63073, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 6414, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 64376, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 66465, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 680, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 68143, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 747, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 8105, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 81507, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 82358, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 8315, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 8408, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 84212, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 8552, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 85567, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 87647, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 87910, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88013, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88037, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 881, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88226, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88238, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88277, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88283, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88299, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88303, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88346, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88365, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88458, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88485, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88580, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88610, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88617, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88700, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88717, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88755, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88762, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88814, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88887, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88893, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88897, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88904, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88946, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88958, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88959, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88982, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88995, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 88999, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89011, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89063, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89080, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89123, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89124, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89127, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 8919, Exp: 100000",RMA_BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89197, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89220, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89231, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89238, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89242, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89303, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89307, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89308, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89323, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89335, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89341, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89353, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89388, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89396, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89397, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89410, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89426, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89430, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89431, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89443, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89494, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89499, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89505, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89517, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89543, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89546, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89566, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89596, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89613, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89617, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89623, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89672, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89675, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89682, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89690, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89693, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89696, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89706, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89709, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89724, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89729, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89735, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89759, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89765, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89773, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89790, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89832, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89839, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89842, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89874, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89903, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89917, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89931, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89935, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89962, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 8997, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89970, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89995, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 89998, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90006, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90007, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90008, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90012, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90017, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90047, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90049, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90050, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90056, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 9009, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90094, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90096, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90097, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 901, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90128, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90135, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90146, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90159, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90173, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90184, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90225, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90233, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90234, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90242, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90244, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90256, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90264, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90278, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90287, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90289, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90292, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90298, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90300, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90309, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90312, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90314, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90325, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90342, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90344, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90366, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90380, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90401, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90420, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90426, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90435, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90447, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90463, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90471, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90479, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90483, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90497, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90506, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90543, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90554, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90555, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90566, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90574, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90584, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90597, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90602, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90613, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90634, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90649, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90651, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90667, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90671, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90675, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90686, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90706, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90716, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90719, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90735, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90741, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90743, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90764, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90777, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90789, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90799, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90800, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90804, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90819, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90820, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90831, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90836, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90843, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90846, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90852, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90863, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90874, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90893, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90894, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90904, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90913, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90926, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90927, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90944, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90952, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90962, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 90977, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91001, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91003, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91016, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91018, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91022, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91050, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91063, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91067, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91075, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91094, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91114, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91120, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91122, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91127, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91132, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91137, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91138, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91142, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91159, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91161, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91167, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91170, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91200, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91209, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91211, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91219, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91229, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91231, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91235, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91244, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91253, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91255, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91266, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91269, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91278, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91289, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91290, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91297, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91312, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91313, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91323, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91343, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91346, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91355, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91362, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91366, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91378, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91382, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91394, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91405, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91413, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91417, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91461, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91480, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91481, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91499, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91507, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91512, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91537, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91568, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91573, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91574, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91581, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91583, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91585, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91602, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91603, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91610, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91637, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91647, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91654, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91666, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91677, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91680, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91684, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91685, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91694, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91733, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91743, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91753, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91762, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91773, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91775, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91795, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91798, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91799, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91828, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91835, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91849, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91879, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91883, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91913, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91921, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91943, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91957, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91982, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 91988, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92029, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92038, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92056, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92085, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92087, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92116, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92135, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92185, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92188, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92191, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92206, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92216, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92219, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92228, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92233, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92236, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92240, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92250, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92251, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92254, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92289, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92307, Exp: 100000",FAT,2,2,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92308, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92316, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92317, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92331, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92341, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92345, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92364, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92426, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92499, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92507, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92512, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92517, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92520, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92535, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92616, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92619, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92638, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92663, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92672, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92687, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92720, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92744, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92761, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92770, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92771, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92772, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92779, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92788, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92867, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92869, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92895, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 92913, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93039, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93099, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93107, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93192, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93310, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93328, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93352, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93412, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93565, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93582, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93641, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 93854, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 94101, Exp: 100000",BFT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 94341, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 94342, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 94531, Exp: 100000",FAT,1,1,1.0
+"SATA fio /dev/sda write BW too slow, Cur: 94908, Exp: 100000",RMA_BFT,1,1,1.0
+SBR version,BFT,1,1,1.0
+SFC fail,BFT,5378,5422,0.99
+SFC fail,RMA_BFT,15,5422,0.0
+SFC fail,RMA_FBT,23,5422,0.0
+SFC fail,Default Test Step,6,5422,0.0
+SFC has ERROR msg,BFT,99,99,1.0
+SFC response result is not OK,BFT,167,167,1.0
+SFC service fail,BFT,93,94,0.99
+SFC service fail,Default Test Step,1,94,0.01
+SMBus Test fail,FAT,65,77,0.84
+SMBus Test fail,RMA_BFT,7,77,0.09
+SMBus Test fail,BFT,5,77,0.06
+Sat Test Failed,BFT,185,311,0.59
+Sat Test Failed,RUNIN,81,311,0.26
+Sat Test Failed,FAT,45,311,0.14
+Send command fail: /usr/bin/ipmitool sdr elist | grep fan,RUNIN,45,104,0.43
+Send command fail: /usr/bin/ipmitool sdr elist | grep fan,SDC,22,104,0.21
+Send command fail: /usr/bin/ipmitool sdr elist | grep fan,FAT,19,104,0.18
+Send command fail: /usr/bin/ipmitool sdr elist | grep fan,BFT,9,104,0.09
+Send command fail: /usr/bin/ipmitool sdr elist | grep fan,PRETEST,8,104,0.08
+Send command fail: /usr/bin/ipmitool sdr elist | grep fan,RMA_BFT,1,104,0.01
+Send command fail: /usr/local/bin/gbmc-netconfig,BFT,5,5,1.0
+Send command fail: /usr/local/bin/gsys --version,FAT,1,1,1.0
+Send command fail: /usr/local/bin/gsys -k bus list | grep actual,FAT,9,9,1.0
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,SDC,173,345,0.5
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,RUNIN,58,345,0.17
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,FAT,52,345,0.15
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,PRETEST,30,345,0.09
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,BFT,24,345,0.07
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,RMA_BFT,7,345,0.02
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,L10-ORT-nDRT-PTC,1,345,0.0
+Send command fail: /usr/local/bin/gsys -k net list,RUNIN,3,5,0.6
+Send command fail: /usr/local/bin/gsys -k net list,FAT,2,5,0.4
+Send command fail: /usr/local/bin/gsys -k pci list,FAT,1,1,1.0
+Send command fail: /usr/local/bin/gsys -k sensor list,PRETEST,19,54,0.35
+Send command fail: /usr/local/bin/gsys -k sensor list,RUNIN,17,54,0.31
+Send command fail: /usr/local/bin/gsys -k sensor list,SDC,14,54,0.26
+Send command fail: /usr/local/bin/gsys -k sensor list,FAT,4,54,0.07
+"Send command fail: /usr/local/bin/gsys hardware parts | grep ""/phys/PE[0-7] | io_expansion""",RUNIN,1,1,1.0
+Send command fail: /usr/local/bin/memtest86 fast 1547890,FAT,9,9,1.0
+Send command fail: /usr/local/bin/memtest86 fast 1547938,FAT,6,6,1.0
+Send command fail: /usr/local/bin/memtest86 fast 1547942,FAT,4,4,1.0
+Send command fail: /usr/local/bin/memtest86 fast 3096229,FAT,1,1,1.0
+Send command fail: /usr/local/bin/memtest86 fast 773606,BFT,1,1,1.0
+Send command fail: /usr/local/bin/memtest86 fast 773746,FAT,16,18,0.89
+Send command fail: /usr/local/bin/memtest86 fast 773746,BFT,2,18,0.11
+Send command fail: /usr/local/bin/memtest86 fast 773764,FAT,1,1,1.0
+Send command fail: /usr/local/bin/memtest86 fast 773784,FAT,1,1,1.0
+Send command fail: /usr/local/bin/memtest86 fast 773794,FAT,3,3,1.0
+Send command fail: /usr/local/bin/memtest86 fast 773798,BFT,14,15,0.93
+Send command fail: /usr/local/bin/memtest86 fast 773798,FAT,1,15,0.07
+Send command fail: /usr/sbin/dmidecode -t 4,BFT,3,3,1.0
+Send command fail: /usr/sbin/kudo.sh led 'bmc-fault' off,BFT,1,1,1.0
+Send command fail: /usr/sbin/kudo.sh led 'bmc-fault' on,BFT,1,1,1.0
+Send command fail: /usr/sbin/kudo.sh led 'bmc-fault' status,BFT,1,1,1.0
+Send command fail: /usr/sbin/kudo.sh led 'bmc-live' on,BFT,5,5,1.0
+Send command fail: /usr/sbin/kudo.sh led 'bmc-live' status,BFT,1,1,1.0
+Send command fail: /usr/sbin/kudo.sh led 'system-boot' off,BFT,2,2,1.0
+Send command fail: /usr/sbin/kudo.sh led 'system-boot' on,BFT,5,5,1.0
+Send command fail: /usr/sbin/kudo.sh led 'system-boot' status,BFT,1,1,1.0
+Send command fail: cat /etc/os-release,PRETEST,1,1,1.0
+Send command fail: dmidecode -t BIOS,BFT,3,3,1.0
+Send command fail: fio --name=global --direct=1 --rw=read --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/nvme0n1 --name=sata1 --new_group --filename=/dev/sda ,BFT,4,4,1.0
+Send command fail: fio --name=global --direct=1 --rw=read --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/sda ,FAT,3,6,0.5
+Send command fail: fio --name=global --direct=1 --rw=read --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/sda ,BFT,3,6,0.5
+Send command fail: fio --name=global --direct=1 --rw=readwrite --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/nvme0n1 --name=sata1 --new_group --filename=/dev/sda ,BFT,2,2,1.0
+Send command fail: fio --name=global --direct=1 --rw=readwrite --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/sda ,FAT,6,8,0.75
+Send command fail: fio --name=global --direct=1 --rw=readwrite --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/sda ,RMA_BFT,1,8,0.13
+Send command fail: fio --name=global --direct=1 --rw=readwrite --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/sda ,BFT,1,8,0.13
+Send command fail: fio --name=global --direct=1 --rw=write --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/nvme0n1 --name=sata1 --new_group --filename=/dev/sda ,BFT,3,3,1.0
+Send command fail: fio --name=global --direct=1 --rw=write --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/sda ,FAT,5,8,0.63
+Send command fail: fio --name=global --direct=1 --rw=write --rwmixread=70 --ioengine=libaio --bs=1M --numjobs=100 --runtime=10 --group_reporting --output-format=json --name=sata0 --new_group --filename=/dev/sda ,BFT,3,8,0.38
+Send command fail: ifconfig,BFT,2,2,1.0
+Send command fail: iperf3 -J -t 10 -p 9001 -c 192.168.200.10,BFT,2,2,1.0
+Send command fail: lsblk | grep disk,RUNIN,2,3,0.67
+Send command fail: lsblk | grep disk,FAT,1,3,0.33
+Send command fail: lscpu,RUNIN,4,5,0.8
+Send command fail: lscpu,FAT,1,5,0.2
+Send command fail: lscpu --version,BFT,18,23,0.78
+Send command fail: lscpu --version,FAT,3,23,0.13
+Send command fail: lscpu --version,RMA_BFT,2,23,0.09
+Send command fail: lshw -short -class network,BFT,16,21,0.76
+Send command fail: lshw -short -class network,FAT,5,21,0.24
+Send command fail: lspci -vv -s 0000:a0:01.1,BFT,1,1,1.0
+Send command fail: lsusb,RUNIN,3,5,0.6
+Send command fail: lsusb,FAT,1,5,0.2
+Send command fail: lsusb,PRETEST,1,5,0.2
+Send command fail: pcie aer status,FAT,4,4,1.0
+Send command fail: ping -c 10 -I eth0 192.168.200.10,FAT,9,18,0.5
+Send command fail: ping -c 10 -I eth0 192.168.200.10,BFT,9,18,0.5
+Send command fail: stressapptest -s 30 -m 128 -C 128 -W,FAT,289,498,0.58
+Send command fail: stressapptest -s 30 -m 128 -C 128 -W,BFT,114,498,0.23
+Send command fail: stressapptest -s 30 -m 128 -C 128 -W,RMA_BFT,94,498,0.19
+Send command fail: stressapptest -s 30 -m 128 -C 128 -W,L10-ORT-nDRT-THB,1,498,0.0
+Sensor check fail,BFT,295,465,0.63
+Sensor check fail,FAT,167,465,0.36
+Sensor check fail,Default Test Step,1,465,0.0
+Sensor check fail,L10-ORT-nDRT-PTC,2,465,0.0
+Set Slot LED on Rack to Start Failed,FW update,3,3,1.0
+Sync attachment to control server Failed,FAT,27,65,0.42
+Sync attachment to control server Failed,RUNIN,21,65,0.32
+Sync attachment to control server Failed,SDC,7,65,0.11
+Sync attachment to control server Failed,BFT,5,65,0.08
+Sync attachment to control server Failed,PRETEST,4,65,0.06
+Sync attachment to control server Failed,FW update,1,65,0.02
+The count of SATA is not matched.,BFT,19,20,0.95
+The count of SATA is not matched.,Default Test Step,1,20,0.05
+The count of eeprom_list is not matched.,BFT,9,11,0.82
+The count of eeprom_list is not matched.,Default Test Step,2,11,0.18
+The disk count of Config_check_HW is not matched.,BFT,209,214,0.98
+The disk count of Config_check_HW is not matched.,FAT,4,214,0.02
+The disk count of Config_check_HW is not matched.,Default Test Step,1,214,0.0
+The fan count of Agora_Fan is not matched.,BFT,51,51,1.0
+The fan count of Config_check_HW is not matched.,FAT,331,792,0.42
+The fan count of Config_check_HW is not matched.,PRETEST,168,792,0.21
+The fan count of Config_check_HW is not matched.,BFT,155,792,0.2
+The fan count of Config_check_HW is not matched.,RMA_BFT,121,792,0.15
+The fan count of Config_check_HW is not matched.,SDC,4,792,0.01
+The fan count of Config_check_HW is not matched.,L10-ORT-DRDT,5,792,0.01
+The fan count of Config_check_HW is not matched.,RUNIN,8,792,0.01
+The network count of Config_check_HW is not matched.,PRETEST,340,727,0.47
+The network count of Config_check_HW is not matched.,FAT,327,727,0.45
+The network count of Config_check_HW is not matched.,RUNIN,40,727,0.06
+The network count of Config_check_HW is not matched.,SDC,14,727,0.02
+The network count of Config_check_HW is not matched.,FW update,5,727,0.01
+The network count of Config_check_HW is not matched.,PST,1,727,0.0
+The sensor count of Config_check_HW is not matched.,FAT,3452,8261,0.42
+The sensor count of Config_check_HW is not matched.,RUNIN,1912,8261,0.23
+The sensor count of Config_check_HW is not matched.,BFT,1264,8261,0.15
+The sensor count of Config_check_HW is not matched.,PRETEST,796,8261,0.1
+The sensor count of Config_check_HW is not matched.,SDC,514,8261,0.06
+The sensor count of Config_check_HW is not matched.,RMA_BFT,284,8261,0.03
+The sensor count of Config_check_HW is not matched.,RMA_FBT,6,8261,0.0
+The sensor count of Config_check_HW is not matched.,FW update,15,8261,0.0
+The sensor count of Config_check_HW is not matched.,Default Test Step,2,8261,0.0
+The sensor count of Config_check_HW is not matched.,L10-ORT-nDRT-THB,4,8261,0.0
+The sensor count of Config_check_HW is not matched.,L10-ORT-nDRT-PTC,3,8261,0.0
+The sensor count of Config_check_HW is not matched.,L10-ORT-DRDT,9,8261,0.0
+The sensor count of HW is not matched.,BFT,68,68,1.0
+The usb count of Config_check_HW is not matched.,FAT,54,192,0.28
+The usb count of Config_check_HW is not matched.,BFT,47,192,0.24
+The usb count of Config_check_HW is not matched.,RMA_BFT,46,192,0.24
+The usb count of Config_check_HW is not matched.,PRETEST,38,192,0.2
+The usb count of Config_check_HW is not matched.,RUNIN,6,192,0.03
+The usb count of Config_check_HW is not matched.,SDC,1,192,0.01
+Timeout exceeded.,PRETEST,488,1270,0.38
+Timeout exceeded.,FAT,375,1270,0.3
+Timeout exceeded.,RUNIN,247,1270,0.19
+Timeout exceeded.,FW update,82,1270,0.06
+Timeout exceeded.,SDC,51,1270,0.04
+Timeout exceeded.,Diorite FWU,26,1270,0.02
+Timeout exceeded.,FV,1,1270,0.0
+Total Capacity of Memory fail,BFT,10,10,1.0
+Total EEPROMs fail !,BFT,1,1,1.0
+Total Network Interface fail,BFT,23,23,1.0
+Total Sensors fail,BFT,716,2742,0.26
+Total Sensors fail,FAT,686,2742,0.25
+Total Sensors fail,RUNIN,660,2742,0.24
+Total Sensors fail,PRETEST,475,2742,0.17
+Total Sensors fail,SDC,200,2742,0.07
+Total Sensors fail,L10-ORT-DRDT,1,2742,0.0
+Total Sensors fail,Default Test Step,4,2742,0.0
+USB Over Pcie Test failed,BFT,528,875,0.6
+USB Over Pcie Test failed,RMA_BFT,195,875,0.22
+USB Over Pcie Test failed,FAT,151,875,0.17
+USB Over Pcie Test failed,Default Test Step,1,875,0.0
+USB Test Failed,BFT,5,7,0.71
+USB Test Failed,PST,1,7,0.14
+USB Test Failed,FAT,1,7,0.14
+Unrecognized GPN,FAT,2,2,1.0
+Update Foxconn BIOS Failed,FAT,1034,1357,0.76
+Update Foxconn BIOS Failed,PRETEST,302,1357,0.22
+Update Foxconn BIOS Failed,Diorite FWU,18,1357,0.01
+Update Foxconn BIOS Failed,BFT,3,1357,0.0
+Update Foxconn BMC Failed,FAT,221,315,0.7
+Update Foxconn BMC Failed,PRETEST,85,315,0.27
+Update Foxconn BMC Failed,BFT,8,315,0.03
+Update Foxconn BMC Failed,Diorite FWU,1,315,0.0
+Update Google BIOS Failed,FW update,691,691,1.0
+Update Google BMC Failed,FW update,330,330,1.0
+Update Google BMC on GLP Failed,FW update,390,390,1.0
+Upgrade Google BIOS Failed,FW update,15,15,1.0
+Upgrade Google BMC Failed,FW update,28,28,1.0
+Upload IO adapter installation point Failed,PRETEST,198,198,1.0
+Upload installation point Failed,FAT,173,198,0.87
+Upload installation point Failed,PRETEST,25,198,0.13
+Upper critical limit violated,BFT,1437,2882,0.5
+Upper critical limit violated,SDC,504,2882,0.17
+Upper critical limit violated,RUNIN,368,2882,0.13
+Upper critical limit violated,RMA_BFT,331,2882,0.11
+Upper critical limit violated,FAT,146,2882,0.05
+Upper critical limit violated,L10-ORT-nDRT-PTC,58,2882,0.02
+Upper critical limit violated,L10-ORT-DRDT,23,2882,0.01
+Upper critical limit violated,L10-ORT-nDRT-THB,9,2882,0.0
+Upper critical limit violated,Default Test Step,2,2882,0.0
+Upper critical limit violated,PST,4,2882,0.0
+VR version check Test failed,PRETEST,10,26,0.38
+VR version check Test failed,FAT,8,26,0.31
+VR version check Test failed,BFT,6,26,0.23
+VR version check Test failed,PST,1,26,0.04
+VR version check Test failed,SDC,1,26,0.04
+"Validate Diorite PN, SN and installed slot Failed",FAT,3438,3443,1.0
+"Validate Diorite PN, SN and installed slot Failed",Diorite FWU,5,3443,0.0
+Validate Foxconn BMC Failed,FAT,5,5,1.0
+Validate Google BMC Failed,FW update,3,3,1.0
+Validate route of DUT Failed,PRETEST,456,836,0.55
+Validate route of DUT Failed,FAT,275,836,0.33
+Validate route of DUT Failed,RUNIN,62,836,0.07
+Validate route of DUT Failed,FW update,20,836,0.02
+Validate route of DUT Failed,SDC,16,836,0.02
+Validate route of DUT Failed,Diorite FWU,7,836,0.01
+Verify Agora FRU,BFT,10,13,0.77
+Verify Agora FRU,FAT,3,13,0.23
+Verify CPLD OTP FAILED,BFT,26,26,1.0
+Verify eMMC Presence Failed,FAT,131,131,1.0
+Williamson FRU quantity,BFT,150,150,1.0
+Williamson usb interface quantity,BFT,243,243,1.0
+[],FAT,2,2,1.0
+ampttk-bad-cpu-dkern,SDC,4,4,1.0
+ampttk-bad-cpu-rsa,SDC,4,4,1.0
+ampttk-procedural-error,SDC,4,4,1.0
+attribute-error-exception,BFT,48,72,0.67
+attribute-error-exception,RMA_BFT,19,72,0.26
+attribute-error-exception,FAT,5,72,0.07
+bad-bus,FAT,2993,3010,0.99
+bad-bus,L10-ORT-nDRT-THB,5,3010,0.0
+bad-bus,PRETEST,6,3010,0.0
+bad-bus,L10-ORT-DRDT,6,3010,0.0
+bad-i2cool-sensor,PRETEST,4,4,1.0
+biosintegrity-procedural-error,FAT,4,4,1.0
+blocking-i-o-error-exception,FAT,8,17,0.47
+blocking-i-o-error-exception,RUNIN,5,17,0.29
+blocking-i-o-error-exception,SDC,4,17,0.24
+bmcintegrity-gsys-unreachable,FAT,3,5,0.6
+bmcintegrity-gsys-unreachable,FW update,2,5,0.4
+bmcintegrity-procedural-error,FW update,2,2,1.0
+bus_check-init-task,PRETEST,4,4,1.0
+cSSD infos validation failure,FAT,305,493,0.62
+cSSD infos validation failure,PRETEST,132,493,0.27
+cSSD infos validation failure,RUNIN,41,493,0.08
+cSSD infos validation failure,SDC,14,493,0.03
+cSSD infos validation failure,Diorite FWU,1,493,0.0
+cache-upload-error,FAT,136,153,0.89
+cache-upload-error,PRETEST,17,153,0.11
+called-process-error-exception,RUNIN,72,101,0.71
+called-process-error-exception,BFT,19,101,0.19
+called-process-error-exception,FAT,9,101,0.09
+called-process-error-exception,PST,1,101,0.01
+cn-cmos-reset,FAT,208,212,0.98
+cn-cmos-reset,RUNIN,3,212,0.01
+cn-cmos-reset,SDC,1,212,0.0
+"command execution failed: date -s ""2023-10-23 17:50:19""",FAT,1,1,1.0
+"command execution failed: date -s ""2023-10-25 15:21:07""",FAT,1,1,1.0
+"command execution failed: date -s ""2023-10-26 19:58:46""",FAT,1,1,1.0
+"command execution failed: date -s ""2023-10-27 14:00:02""",FAT,1,1,1.0
+"command execution failed: date -s ""2023-11-08 15:59:50""",FAT,1,1,1.0
+"command execution failed: date -s ""2023-12-21 16:01:32""",FAT,1,1,1.0
+"command execution failed: date -s ""2023-12-22 23:30:28""",FAT,1,1,1.0
+"command execution failed: date -s ""2023-12-27 22:29:43""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-01-29 16:53:02""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-02-03 19:57:07""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-02-06 18:23:41""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-02-09 07:29:40""",BFT,1,1,1.0
+"command execution failed: date -s ""2024-02-15 22:04:02""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-04-13 04:05:07""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-04-13 14:35:04""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-04-24 22:52:50""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-05-28 19:24:09""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-05-31 20:39:44""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-06-13 13:23:38""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-07-17 13:06:03""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-08-08 16:41:15""",PRETEST,1,1,1.0
+"command execution failed: date -s ""2024-09-17 18:17:23""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-09-18 21:53:35""",SDC,1,1,1.0
+"command execution failed: date -s ""2024-09-20 22:49:11""",SDC,1,1,1.0
+"command execution failed: date -s ""2024-09-24 21:57:17""",SDC,1,1,1.0
+"command execution failed: date -s ""2024-09-24 23:07:46""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-09-26 03:12:09""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-09-26 10:09:35""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-10-05 19:36:55""",SDC,1,1,1.0
+"command execution failed: date -s ""2024-10-07 17:05:17""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-10-09 20:46:20""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-10-15 20:27:04""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-10-25 00:12:55""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-10-25 00:20:02""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-10-29 14:09:40""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-10-29 16:04:30""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-11-01 23:17:37""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-11-02 14:06:56""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-11-06 14:50:10""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-11-07 04:43:25""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-11-07 19:00:37""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-11-09 06:26:18""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-11-11 20:45:57""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-11-13 14:03:04""",SDC,1,1,1.0
+"command execution failed: date -s ""2024-11-15 06:31:08""",PRETEST,1,1,1.0
+"command execution failed: date -s ""2024-12-04 19:02:45""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-12-10 14:55:15""",FAT,1,1,1.0
+"command execution failed: date -s ""2024-12-16 07:08:19""",SDC,1,1,1.0
+"command execution failed: date -s ""2024-12-27 12:20:12""",FW update,1,1,1.0
+"command execution failed: date -s ""2024-12-27 22:35:46""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2024-12-31 07:32:18""",PRETEST,1,1,1.0
+"command execution failed: date -s ""2025-01-09 03:27:57""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-01-11 07:09:21""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-01-11 22:35:44""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-01-13 19:46:49""",PRETEST,1,1,1.0
+"command execution failed: date -s ""2025-01-14 05:46:39""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-01-22 07:09:20""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-01-22 21:43:09""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-01-23 16:23:24""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-01-25 10:45:28""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-02-01 00:18:58""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-02-06 16:32:44""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-02-06 16:59:01""",FAT,1,1,1.0
+"command execution failed: date -s ""2025-02-07 11:28:49""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-02-08 02:36:14""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-02-08 03:16:34""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-02-08 06:10:26""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-02-11 23:31:01""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-02-19 05:33:34""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-02-20 02:17:08""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-02-22 09:22:13""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-02-22 22:09:05""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-02-25 03:13:29""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-02-25 05:17:02""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-02-25 09:11:33""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-02-25 22:11:34""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-02-26 03:32:43""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-03-12 20:00:19""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-03-13 22:29:58""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-03-14 19:38:12""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-03-15 03:09:55""",PRETEST,1,1,1.0
+"command execution failed: date -s ""2025-03-17 22:22:34""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-03-19 05:48:53""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-03-19 21:11:43""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-03-28 04:27:55""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-03-28 13:54:46""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-03-28 20:07:13""",FAT,1,1,1.0
+"command execution failed: date -s ""2025-03-29 15:12:16""",FAT,1,1,1.0
+"command execution failed: date -s ""2025-04-04 03:14:57""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-04-06 03:28:02""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-04-08 12:28:35""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-04-12 10:20:05""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-04-17 08:57:08""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-04-17 19:43:41""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-04-17 21:45:40""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-04-19 06:29:19""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-04-19 08:12:29""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-04-20 06:18:53""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-04-24 20:39:25""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-04-26 10:23:11""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-04-27 11:52:21""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-04-30 05:52:30""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-04-30 21:29:44""",FAT,1,1,1.0
+"command execution failed: date -s ""2025-05-01 14:42:33""",RUNIN,1,1,1.0
+"command execution failed: date -s ""2025-05-02 06:56:40""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-05-06 18:51:43""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-05-07 07:06:53""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-05-09 17:10:15""",SDC,1,1,1.0
+"command execution failed: date -s ""2025-05-22 19:55:23""",FW update,1,1,1.0
+"command execution failed: date -s ""2025-07-11 20:57:31""",FAT,1,1,1.0
+"command execution failed: date -s ""2025-09-03 17:36:14""",RMA_BFT,1,1,1.0
+"command execution failed: date -s ""2025-09-04 16:14:32""",FAT,1,1,1.0
+command execution failed: hwclock -w,FAT,3,10,0.3
+command execution failed: hwclock -w,RUNIN,2,10,0.2
+command execution failed: hwclock -w,FW update,1,10,0.1
+command execution failed: hwclock -w,SDC,1,10,0.1
+command execution failed: hwclock -w,RMA_BFT,1,10,0.1
+command execution failed: hwclock -w,PRETEST,1,10,0.1
+command execution failed: hwclock -w,BFT,1,10,0.1
+connect to Agora console fail,RUNIN,39,57,0.68
+connect to Agora console fail,FAT,17,57,0.3
+connect to Agora console fail,PST,1,57,0.02
+connect-timeout-exception,RMA_BFT,4,4,1.0
+connection-error-exception,RMA_BFT,1,1,1.0
+cpu-functional-test-fail,FAT,1,1,1.0
+cpucheckerburnin-bad-cpu,SDC,18,19,0.95
+cpucheckerburnin-bad-cpu,FV,1,19,0.05
+cpucheckerburnin-procedural-error,SDC,2,2,1.0
+cssd-simple-io-smartctl-error,RMA_BFT,40,63,0.63
+cssd-simple-io-smartctl-error,BFT,21,63,0.33
+cssd-simple-io-smartctl-error,FAT,2,63,0.03
+eeprom_list_0_size (: )  is not matched.,BFT,1,1,1.0
+error-monitor-procedural-error,FAT,183,434,0.42
+error-monitor-procedural-error,RUNIN,96,434,0.22
+error-monitor-procedural-error,SDC,91,434,0.21
+error-monitor-procedural-error,PRETEST,48,434,0.11
+error-monitor-procedural-error,BFT,14,434,0.03
+error-monitor-procedural-error,RMA_BFT,1,434,0.0
+error-monitor-procedural-error,L10-ORT-DRDT,1,434,0.0
+error-monitor-unknown-error,BFT,80,232,0.34
+error-monitor-unknown-error,RUNIN,66,232,0.28
+error-monitor-unknown-error,FAT,45,232,0.19
+error-monitor-unknown-error,SDC,41,232,0.18
+excessive-correctable-cache-cpu-errors,SDC,14,37,0.38
+excessive-correctable-cache-cpu-errors,RUNIN,14,37,0.38
+excessive-correctable-cache-cpu-errors,FAT,8,37,0.22
+excessive-correctable-cache-cpu-errors,PRETEST,1,37,0.03
+excessive-correctable-core-cpu-errors,FAT,39,70,0.56
+excessive-correctable-core-cpu-errors,SDC,13,70,0.19
+excessive-correctable-core-cpu-errors,RUNIN,12,70,0.17
+excessive-correctable-core-cpu-errors,L10-ORT-DRDT,6,70,0.09
+excessive-correctable-cpu-type_unclassified-errors,FAT,20,38,0.53
+excessive-correctable-cpu-type_unclassified-errors,RUNIN,7,38,0.18
+excessive-correctable-cpu-type_unclassified-errors,BFT,6,38,0.16
+excessive-correctable-cpu-type_unclassified-errors,SDC,4,38,0.11
+excessive-correctable-cpu-type_unclassified-errors,FV,1,38,0.03
+excessive-correctable-dimm-errors,RUNIN,1,2,0.5
+excessive-correctable-dimm-errors,SDC,1,2,0.5
+excessive-correctable-interconnect-cpu-errors,SDC,247,439,0.56
+excessive-correctable-interconnect-cpu-errors,FAT,177,439,0.4
+excessive-correctable-interconnect-cpu-errors,PRETEST,7,439,0.02
+excessive-correctable-interconnect-cpu-errors,RUNIN,8,439,0.02
+excessive-correctable-unclassified-cpu-errors,FAT,444,921,0.48
+excessive-correctable-unclassified-cpu-errors,SDC,274,921,0.3
+excessive-correctable-unclassified-cpu-errors,PRETEST,145,921,0.16
+excessive-correctable-unclassified-cpu-errors,RUNIN,37,921,0.04
+excessive-correctable-unclassified-cpu-errors,BFT,12,921,0.01
+excessive-correctable-unclassified-cpu-errors,RMA_BFT,9,921,0.01
+excessive-pcie-errors,RUNIN,27,72,0.38
+excessive-pcie-errors,SDC,21,72,0.29
+excessive-pcie-errors,FAT,18,72,0.25
+excessive-pcie-errors,BFT,6,72,0.08
+excessive-uncorrectable-cache-cpu-errors,SDC,10,17,0.59
+excessive-uncorrectable-cache-cpu-errors,RUNIN,5,17,0.29
+excessive-uncorrectable-cache-cpu-errors,FAT,2,17,0.12
+excessive-uncorrectable-core-cpu-errors,RUNIN,37,103,0.36
+excessive-uncorrectable-core-cpu-errors,SDC,32,103,0.31
+excessive-uncorrectable-core-cpu-errors,FAT,26,103,0.25
+excessive-uncorrectable-core-cpu-errors,BFT,6,103,0.06
+excessive-uncorrectable-core-cpu-errors,PRETEST,2,103,0.02
+excessive-uncorrectable-cpu-type_cache-errors,FAT,2,2,1.0
+excessive-uncorrectable-cpu-type_core-errors,SDC,2,3,0.67
+excessive-uncorrectable-cpu-type_core-errors,RUNIN,1,3,0.33
+excessive-uncorrectable-cpu-type_unclassified-errors,FAT,7,7,1.0
+excessive-uncorrectable-dimm-errors,SDC,8,11,0.73
+excessive-uncorrectable-dimm-errors,RUNIN,2,11,0.18
+excessive-uncorrectable-dimm-errors,FAT,1,11,0.09
+excessive-uncorrectable-interconnect-cpu-errors,SDC,3,3,1.0
+excessive-uncorrectable-unclassified-cpu-errors,PRETEST,205,404,0.51
+excessive-uncorrectable-unclassified-cpu-errors,FAT,193,404,0.48
+excessive-uncorrectable-unclassified-cpu-errors,BFT,4,404,0.01
+excessive-uncorrectable-unclassified-cpu-errors,SDC,1,404,0.0
+excessive-uncorrectable-unclassified-cpu-errors,RUNIN,1,404,0.0
+excessive-uncorrectable-watchdog-cpu-errors,RUNIN,13,27,0.48
+excessive-uncorrectable-watchdog-cpu-errors,SDC,8,27,0.3
+excessive-uncorrectable-watchdog-cpu-errors,PRETEST,5,27,0.19
+excessive-uncorrectable-watchdog-cpu-errors,FAT,1,27,0.04
+execution-DIMM-miscompares-error,FAT,16,29,0.55
+execution-DIMM-miscompares-error,RUNIN,12,29,0.41
+execution-DIMM-miscompares-error,BFT,1,29,0.03
+fail to get DIMM info,BFT,65,65,1.0
+fail to get FRU info,BFT,3,3,1.0
+fail to get agora_mac,BFT,80,81,0.99
+fail to get agora_mac,FAT,1,81,0.01
+fail to get storage info,BFT,671,824,0.81
+fail to get storage info,RMA_BFT,153,824,0.19
+fan_speed-fast-fan,FAT,285,285,1.0
+fan_speed-internal-error,FAT,44,44,1.0
+fan_speed-slow-fan,FAT,389,391,0.99
+fan_speed-slow-fan,L10-ORT-nDRT-PTC,2,391,0.01
+fast-pdb-fan,PRETEST,1,1,1.0
+file-not-found-error-exception,BFT,7,8,0.88
+file-not-found-error-exception,FAT,1,8,0.13
+gSSD location validation failure,FAT,266,330,0.81
+gSSD location validation failure,RUNIN,56,330,0.17
+gSSD location validation failure,Diorite FWU,4,330,0.01
+gSSD location validation failure,SDC,2,330,0.01
+gSSD location validation failure,FW update,2,330,0.01
+get_build_info_failed-exception,RMA_BFT,6,6,1.0
+gsysd down,FAT,22,49,0.45
+gsysd down,PRETEST,21,49,0.43
+gsysd down,FW update,6,49,0.12
+host-boot-issue-transaction-timeout,PRETEST,157,351,0.45
+host-boot-issue-transaction-timeout,FAT,127,351,0.36
+host-boot-issue-transaction-timeout,FW update,43,351,0.12
+host-boot-issue-transaction-timeout,RUNIN,17,351,0.05
+host-boot-issue-transaction-timeout,SDC,7,351,0.02
+host-boot-timeout,FAT,149,265,0.56
+host-boot-timeout,FW update,58,265,0.22
+host-boot-timeout,PRETEST,22,265,0.08
+host-boot-timeout,RUNIN,18,265,0.07
+host-boot-timeout,SDC,18,265,0.07
+host-failed-to-get-dhcp-ipv4,BFT,13,22,0.59
+host-failed-to-get-dhcp-ipv4,RMA_BFT,3,22,0.14
+host-failed-to-get-dhcp-ipv4,FAT,3,22,0.14
+host-failed-to-get-dhcp-ipv4,RMA_FBT,1,22,0.05
+host-failed-to-get-dhcp-ipv4,PRETEST,1,22,0.05
+host-failed-to-get-dhcp-ipv4,FW update,1,22,0.05
+hot-cpu-vr,PRETEST,1,1,1.0
+hot-dimm,PRETEST,3,3,1.0
+hwinterface_smoke_test-hwinterface-error,FW update,4866,4918,0.99
+hwinterface_smoke_test-hwinterface-error,FAT,24,4918,0.0
+hwinterface_smoke_test-hwinterface-error,RMA_BFT,1,4918,0.0
+hwinterface_smoke_test-hwinterface-error,BFT,6,4918,0.0
+hwinterface_smoke_test-hwinterface-error,RUNIN,1,4918,0.0
+hwinterface_smoke_test-hwinterface-error,PRETEST,20,4918,0.0
+i2c VR U1 step1 fail,FAT,8,29,0.28
+i2c VR U1 step1 fail,SDC,7,29,0.24
+i2c VR U1 step1 fail,PRETEST,7,29,0.24
+i2c VR U1 step1 fail,RUNIN,3,29,0.1
+i2c VR U1 step1 fail,BFT,2,29,0.07
+i2c VR U1 step1 fail,FW update,1,29,0.03
+i2c VR U1 step1 fail,Diorite FWU,1,29,0.03
+i2c VR U1 step2 fail,RUNIN,1,1,1.0
+i2c VR U14 step1 fail,RUNIN,1,1,1.0
+i2c VR U14 step2 fail,FW update,1,1,1.0
+i2c VR U37 step1 fail,FW update,1,2,0.5
+i2c VR U37 step1 fail,RMA_BFT,1,2,0.5
+i2c VR U60 step2 fail,FAT,1,1,1.0
+i2c VR U61 step2 fail,FW update,1,1,1.0
+i2c VR U62 step1 fail,BFT,1,1,1.0
+i2c VR U62 step2 fail,BFT,2,2,1.0
+index-error-exception,SDC,136,392,0.35
+index-error-exception,FAT,122,392,0.31
+index-error-exception,RUNIN,85,392,0.22
+index-error-exception,BFT,38,392,0.1
+index-error-exception,RMA_BFT,6,392,0.02
+index-error-exception,PRETEST,5,392,0.01
+intel_mlc-init-task,FAT,1,1,1.0
+io adapter location validation failure,PRETEST,776,1319,0.59
+io adapter location validation failure,FAT,525,1319,0.4
+io adapter location validation failure,RUNIN,11,1319,0.01
+io adapter location validation failure,SDC,6,1319,0.0
+io adapter location validation failure,Diorite FWU,1,1319,0.0
+j-s-o-n-decode-error-exception,FAT,40,52,0.77
+j-s-o-n-decode-error-exception,BFT,11,52,0.21
+j-s-o-n-decode-error-exception,RMA_BFT,1,52,0.02
+key-error-exception,BFT,8,8,1.0
+lower-critical-limit-violated,FAT,2,2,1.0
+maxcorestim-bad-cpu,SDC,31,31,1.0
+maxcorestim-bad-cpu-mce,SDC,58,58,1.0
+maxcorestim-correctable-memory-error,SDC,1,1,1.0
+maxcorestim-procedural-error,SDC,6,6,1.0
+meltan-parsing-error,PRETEST,5,5,1.0
+memtester-dimm-miscompare,RUNIN,1,1,1.0
+memtester-execution-error,FAT,20,23,0.87
+memtester-execution-error,RUNIN,3,23,0.13
+memtester-insufficient-memory,RUNIN,23,26,0.88
+memtester-insufficient-memory,FAT,3,26,0.12
+memtester-preparation-error,RUNIN,50,53,0.94
+memtester-preparation-error,FAT,3,53,0.06
+missing-bmc-devpath-data,FW update,4,4,1.0
+name-error-exception,BFT,3,4,0.75
+name-error-exception,FAT,1,4,0.25
+ncsi-crc-error-rate-ncsi-link-crc-error-rate-invalid-value,FW update,2,2,1.0
+ncsi-disconnected,FAT,803,831,0.97
+ncsi-disconnected,RUNIN,27,831,0.03
+ncsi-disconnected,L10-ORT-nDRT-THB,1,831,0.0
+ncsi-link-crc-error-high,FW update,14,14,1.0
+ncsi_cable-preparation-error,FAT,1852,1911,0.97
+ncsi_cable-preparation-error,RUNIN,59,1911,0.03
+no-host-console-output,FAT,2099,3859,0.54
+no-host-console-output,PRETEST,878,3859,0.23
+no-host-console-output,RUNIN,332,3859,0.09
+no-host-console-output,FW update,312,3859,0.08
+no-host-console-output,SDC,230,3859,0.06
+no-host-console-output,L10-ORT-nDRT-THB,7,3859,0.0
+no-host-console-output,L10-ORT-DRDT,1,3859,0.0
+no-option-error-exception,FAT,2,2,1.0
+no-section-error-exception,BFT,9,9,1.0
+o-s-error-exception,RUNIN,111,214,0.52
+o-s-error-exception,SDC,67,214,0.31
+o-s-error-exception,FAT,20,214,0.09
+o-s-error-exception,BFT,16,214,0.07
+pci_card_0_count not 0,Default Test Step,1,1,1.0
+pci_card_0_count not 7,Default Test Step,2,2,1.0
+pcierrors-high-bad_dllp-rate,PRETEST,70,90,0.78
+pcierrors-high-bad_dllp-rate,BFT,10,90,0.11
+pcierrors-high-bad_dllp-rate,FAT,6,90,0.07
+pcierrors-high-bad_dllp-rate,SDC,2,90,0.02
+pcierrors-high-bad_dllp-rate,RUNIN,2,90,0.02
+pcierrors-high-bad_tlp-rate,PRETEST,291,306,0.95
+pcierrors-high-bad_tlp-rate,FAT,9,306,0.03
+pcierrors-high-bad_tlp-rate,RUNIN,3,306,0.01
+pcierrors-high-bad_tlp-rate,BFT,2,306,0.01
+pcierrors-high-bad_tlp-rate,SDC,1,306,0.0
+pcierrors-high-completion_timeout-rate,PRETEST,15,41,0.37
+pcierrors-high-completion_timeout-rate,FAT,13,41,0.32
+pcierrors-high-completion_timeout-rate,SDC,5,41,0.12
+pcierrors-high-completion_timeout-rate,RUNIN,4,41,0.1
+pcierrors-high-completion_timeout-rate,RMA_BFT,2,41,0.05
+pcierrors-high-completion_timeout-rate,BFT,2,41,0.05
+pcierrors-high-data_link_protocol_error-rate,FAT,46,143,0.32
+pcierrors-high-data_link_protocol_error-rate,RUNIN,37,143,0.26
+pcierrors-high-data_link_protocol_error-rate,PRETEST,24,143,0.17
+pcierrors-high-data_link_protocol_error-rate,BFT,20,143,0.14
+pcierrors-high-data_link_protocol_error-rate,SDC,14,143,0.1
+pcierrors-high-data_link_protocol_error-rate,L10-ORT-DRDT,2,143,0.01
+pcierrors-high-header_log_overflow-rate,PRETEST,30,39,0.77
+pcierrors-high-header_log_overflow-rate,FAT,6,39,0.15
+pcierrors-high-header_log_overflow-rate,SDC,2,39,0.05
+pcierrors-high-header_log_overflow-rate,RUNIN,1,39,0.03
+pcierrors-high-lane_error-rate,FAT,1004,3417,0.29
+pcierrors-high-lane_error-rate,PRETEST,961,3417,0.28
+pcierrors-high-lane_error-rate,BFT,542,3417,0.16
+pcierrors-high-lane_error-rate,RUNIN,541,3417,0.16
+pcierrors-high-lane_error-rate,SDC,321,3417,0.09
+pcierrors-high-lane_error-rate,RMA_BFT,42,3417,0.01
+pcierrors-high-lane_error-rate,L10-ORT-DRDT,4,3417,0.0
+pcierrors-high-lane_error-rate,L10-ORT-nDRT-THB,2,3417,0.0
+pcierrors-high-malformed_tlp-rate,RUNIN,3,7,0.43
+pcierrors-high-malformed_tlp-rate,FAT,2,7,0.29
+pcierrors-high-malformed_tlp-rate,SDC,2,7,0.29
+pcierrors-high-poisoned_tlp-rate,PRETEST,3,6,0.5
+pcierrors-high-poisoned_tlp-rate,RUNIN,2,6,0.33
+pcierrors-high-poisoned_tlp-rate,FAT,1,6,0.17
+pcierrors-high-receiver_error-rate,PRETEST,788,1028,0.77
+pcierrors-high-receiver_error-rate,BFT,118,1028,0.11
+pcierrors-high-receiver_error-rate,FAT,72,1028,0.07
+pcierrors-high-receiver_error-rate,RUNIN,25,1028,0.02
+pcierrors-high-receiver_error-rate,RMA_BFT,13,1028,0.01
+pcierrors-high-receiver_error-rate,SDC,12,1028,0.01
+pcierrors-high-replay_num_rollover-rate,PRETEST,31,44,0.7
+pcierrors-high-replay_num_rollover-rate,FAT,4,44,0.09
+pcierrors-high-replay_num_rollover-rate,SDC,3,44,0.07
+pcierrors-high-replay_num_rollover-rate,BFT,3,44,0.07
+pcierrors-high-replay_num_rollover-rate,RMA_BFT,2,44,0.05
+pcierrors-high-replay_num_rollover-rate,RUNIN,1,44,0.02
+pcierrors-high-replay_timer_timeout-rate,PRETEST,131,270,0.49
+pcierrors-high-replay_timer_timeout-rate,FAT,50,270,0.19
+pcierrors-high-replay_timer_timeout-rate,RUNIN,44,270,0.16
+pcierrors-high-replay_timer_timeout-rate,SDC,23,270,0.09
+pcierrors-high-replay_timer_timeout-rate,BFT,20,270,0.07
+pcierrors-high-replay_timer_timeout-rate,RMA_BFT,1,270,0.0
+pcierrors-high-replay_timer_timeout-rate,L10-ORT-DRDT,1,270,0.0
+pcierrors-high-surprise_down_error-rate,PRETEST,149,312,0.48
+pcierrors-high-surprise_down_error-rate,FAT,66,312,0.21
+pcierrors-high-surprise_down_error-rate,RUNIN,51,312,0.16
+pcierrors-high-surprise_down_error-rate,SDC,26,312,0.08
+pcierrors-high-surprise_down_error-rate,BFT,17,312,0.05
+pcierrors-high-surprise_down_error-rate,RMA_BFT,3,312,0.01
+pcierrors-high-unexpected_completion-rate,PRETEST,9,22,0.41
+pcierrors-high-unexpected_completion-rate,FAT,6,22,0.27
+pcierrors-high-unexpected_completion-rate,SDC,4,22,0.18
+pcierrors-high-unexpected_completion-rate,BFT,2,22,0.09
+pcierrors-high-unexpected_completion-rate,RUNIN,1,22,0.05
+procedural-error,BFT,28,67,0.42
+procedural-error,FAT,21,67,0.31
+procedural-error,SDC,11,67,0.16
+procedural-error,RUNIN,7,67,0.1
+process-step-error-exception,BFT,66,128,0.52
+process-step-error-exception,FAT,58,128,0.45
+process-step-error-exception,RMA_BFT,3,128,0.02
+process-step-error-exception,Default Test Step,1,128,0.01
+rainbow-cpu-error,SDC,1,1,1.0
+rainbow-procedural-error,SDC,2,2,1.0
+read-io-error,BFT,5,7,0.71
+read-io-error,FAT,2,7,0.29
+read-io-input-error,FAT,33,73,0.45
+read-io-input-error,BFT,33,73,0.45
+read-io-input-error,RMA_BFT,7,73,0.1
+root-of-trust-map-procedural-error,FAT,1,1,1.0
+s-c-p-exception-exception,BFT,10,10,1.0
+s-s-h-exception-exception,BFT,4,4,1.0
+sat-bad-cpu-mce,BFT,366,930,0.39
+sat-bad-cpu-mce,RUNIN,235,930,0.25
+sat-bad-cpu-mce,RMA_BFT,179,930,0.19
+sat-bad-cpu-mce,FAT,148,930,0.16
+sat-bad-cpu-mce,L10-ORT-DRDT,2,930,0.0
+sat-bad-dimm,RUNIN,16,18,0.89
+sat-bad-dimm,BFT,1,18,0.06
+sat-bad-dimm,FAT,1,18,0.06
+sat-bad-logfile,RUNIN,1,1,1.0
+sat-procedural-error,RUNIN,3,4,0.75
+sat-procedural-error,BFT,1,4,0.25
+sat-unknown-error,RUNIN,4,6,0.67
+sat-unknown-error,FAT,2,6,0.33
+send_cmd_failure-exception,SDC,55,103,0.53
+send_cmd_failure-exception,FAT,19,103,0.18
+send_cmd_failure-exception,RUNIN,11,103,0.11
+send_cmd_failure-exception,BFT,7,103,0.07
+send_cmd_failure-exception,PRETEST,7,103,0.07
+send_cmd_failure-exception,RMA_BFT,2,103,0.02
+send_cmd_failure-exception,Diorite FWU,2,103,0.02
+sensor-limits-satisfied,RUNIN,18,18,1.0
+sensor-monitor-no-sensor-readings,PRETEST,74,74,1.0
+sensor-monitor-runtime-too-short,SDC,3,8,0.38
+sensor-monitor-runtime-too-short,BFT,2,8,0.25
+sensor-monitor-runtime-too-short,FAT,2,8,0.25
+sensor-monitor-runtime-too-short,RUNIN,1,8,0.13
+set FAN RPM,SDC,373,491,0.76
+set FAN RPM,RUNIN,117,491,0.24
+set FAN RPM,BFT,1,491,0.0
+set FAN RPM 100%,BFT,14,14,1.0
+set FAN RPM 20%,BFT,17,17,1.0
+set FAN RPM 40%,BFT,23,23,1.0
+set FAN RPM 50%,BFT,5,5,1.0
+set FAN RPM 70%,BFT,7,7,1.0
+set FAN RPM 75%,BFT,4,4,1.0
+set FAN RPM MAX,BFT,6,7,0.86
+set FAN RPM MAX,Default Test Step,1,7,0.14
+slow-pdb-fan,PRETEST,187,187,1.0
+slow-sys-fan,PRETEST,133,133,1.0
+software-exception-boot-failure,FAT,9,18,0.5
+software-exception-boot-failure,RMA_BFT,3,18,0.17
+software-exception-boot-failure,BFT,3,18,0.17
+software-exception-boot-failure,FW update,1,18,0.06
+software-exception-boot-failure,PRETEST,1,18,0.06
+software-exception-boot-failure,RMA_FBT,1,18,0.06
+switch-no-imc-mac,FAT,27,28,0.96
+switch-no-imc-mac,RUNIN,1,28,0.04
+task-failed-with-non-zero-code-return-code,RUNIN,231,645,0.36
+task-failed-with-non-zero-code-return-code,SDC,210,645,0.33
+task-failed-with-non-zero-code-return-code,FAT,180,645,0.28
+task-failed-with-non-zero-code-return-code,FW update,22,645,0.03
+task-failed-with-non-zero-code-return-code,L10-ORT-nDRT-THB,2,645,0.0
+test-completion-missing-error,BFT,644,1095,0.59
+test-completion-missing-error,RUNIN,181,1095,0.17
+test-completion-missing-error,SDC,139,1095,0.13
+test-completion-missing-error,FAT,130,1095,0.12
+test-completion-missing-error,FW update,1,1095,0.0
+test-completion-missing-error-amd_cpu_power_virus,SDC,1308,1312,1.0
+test-completion-missing-error-amd_cpu_power_virus,FV,4,1312,0.0
+test-completion-missing-error-biosintegrity,FAT,34,89,0.38
+test-completion-missing-error-biosintegrity,FW update,29,89,0.33
+test-completion-missing-error-biosintegrity,PRETEST,25,89,0.28
+test-completion-missing-error-biosintegrity,BFT,1,89,0.01
+test-completion-missing-error-bmcintegrity,FW update,3,3,1.0
+test-completion-missing-error-bus_check,PRETEST,531,604,0.88
+test-completion-missing-error-bus_check,FAT,73,604,0.12
+test-completion-missing-error-cpu_checker_burnin,SDC,796,800,0.99
+test-completion-missing-error-cpu_checker_burnin,FV,4,800,0.01
+test-completion-missing-error-cpu_functional,FAT,354,492,0.72
+test-completion-missing-error-cpu_functional,RMA_BFT,81,492,0.16
+test-completion-missing-error-cpu_functional,BFT,56,492,0.11
+test-completion-missing-error-cpu_functional,RMA_FBT,1,492,0.0
+test-completion-missing-error-cssd_simple_io,BFT,28,47,0.6
+test-completion-missing-error-cssd_simple_io,FAT,17,47,0.36
+test-completion-missing-error-cssd_simple_io,RMA_BFT,2,47,0.04
+test-completion-missing-error-dimmintegrity,RMA_BFT,1,1,1.0
+test-completion-missing-error-dna,SDC,495,819,0.6
+test-completion-missing-error-dna,FAT,226,819,0.28
+test-completion-missing-error-dna,RUNIN,41,819,0.05
+test-completion-missing-error-dna,FW update,31,819,0.04
+test-completion-missing-error-dna,PRETEST,24,819,0.03
+test-completion-missing-error-dna,FV,2,819,0.0
+test-completion-missing-error-error_monitor,PRETEST,655,751,0.87
+test-completion-missing-error-error_monitor,RUNIN,51,751,0.07
+test-completion-missing-error-error_monitor,FAT,31,751,0.04
+test-completion-missing-error-error_monitor,BFT,4,751,0.01
+test-completion-missing-error-error_monitor,SDC,10,751,0.01
+test-completion-missing-error-fan_speed,FAT,614,614,1.0
+test-completion-missing-error-hwinterface_smoketest,RUNIN,184,579,0.32
+test-completion-missing-error-hwinterface_smoketest,FAT,103,579,0.18
+test-completion-missing-error-hwinterface_smoketest,FW update,92,579,0.16
+test-completion-missing-error-hwinterface_smoketest,BFT,77,579,0.13
+test-completion-missing-error-hwinterface_smoketest,SDC,66,579,0.11
+test-completion-missing-error-hwinterface_smoketest,PRETEST,32,579,0.06
+test-completion-missing-error-hwinterface_smoketest,RMA_BFT,22,579,0.04
+test-completion-missing-error-hwinterface_smoketest,FV,1,579,0.0
+test-completion-missing-error-hwinterface_smoketest,L10-ORT-nDRT-PTC,1,579,0.0
+test-completion-missing-error-hwinterface_smoketest,L10-ORT-DRDT,1,579,0.0
+test-completion-missing-error-maxcorestim,SDC,6641,6645,1.0
+test-completion-missing-error-maxcorestim,FV,4,6645,0.0
+test-completion-missing-error-memtester,RUNIN,2724,4005,0.68
+test-completion-missing-error-memtester,FAT,1108,4005,0.28
+test-completion-missing-error-memtester,L10-ORT-nDRT-THB,138,4005,0.03
+test-completion-missing-error-memtester,BFT,25,4005,0.01
+test-completion-missing-error-memtester,L10-ORT-nDRT-PTC,8,4005,0.0
+test-completion-missing-error-memtester,L10-ORT-DRDT,2,4005,0.0
+test-completion-missing-error-ncsi_cable,RUNIN,66,110,0.6
+test-completion-missing-error-ncsi_cable,FAT,39,110,0.35
+test-completion-missing-error-ncsi_cable,BFT,5,110,0.05
+test-completion-missing-error-rainbow,SDC,2554,2557,1.0
+test-completion-missing-error-rainbow,FV,3,2557,0.0
+test-completion-missing-error-rootoftrustmap,FAT,16,29,0.55
+test-completion-missing-error-rootoftrustmap,PRETEST,13,29,0.45
+test-completion-missing-error-sat,RUNIN,1749,2462,0.71
+test-completion-missing-error-sat,FAT,275,2462,0.11
+test-completion-missing-error-sat,BFT,271,2462,0.11
+test-completion-missing-error-sat,RMA_BFT,131,2462,0.05
+test-completion-missing-error-sat,L10-ORT-nDRT-THB,34,2462,0.01
+test-completion-missing-error-sat,RMA_FBT,2,2462,0.0
+test-completion-missing-error-sensor_monitor,RUNIN,100,151,0.66
+test-completion-missing-error-sensor_monitor,SDC,22,151,0.15
+test-completion-missing-error-sensor_monitor,PRETEST,14,151,0.09
+test-completion-missing-error-sensor_monitor,FAT,9,151,0.06
+test-completion-missing-error-sensor_monitor,BFT,6,151,0.04
+test-completion-missing-error-verify_frus,FAT,118,126,0.94
+test-completion-missing-error-verify_frus,PRETEST,8,126,0.06
+the count of gulp fru is not 1,RMA_BFT,5,9,0.56
+the count of gulp fru is not 1,PRETEST,3,9,0.33
+the count of gulp fru is not 1,FAT,1,9,0.11
+the count of gulp is not 1,BFT,11,11,1.0
+the count of mb fru is not 1,FAT,9,18,0.5
+the count of mb fru is not 1,RMA_BFT,5,18,0.28
+the count of mb fru is not 1,SDC,2,18,0.11
+the count of mb fru is not 1,BFT,1,18,0.06
+the count of mb fru is not 1,PRETEST,1,18,0.06
+type-error-exception,BFT,115,231,0.5
+type-error-exception,SDC,82,231,0.35
+type-error-exception,FAT,18,231,0.08
+type-error-exception,RUNIN,8,231,0.03
+type-error-exception,FW update,5,231,0.02
+type-error-exception,RMA_BFT,3,231,0.01
+unbound-local-error-exception,RUNIN,2,4,0.5
+unbound-local-error-exception,FAT,2,4,0.5
+unexpected-bios-firmware-version,FW update,175,289,0.61
+unexpected-bios-firmware-version,FAT,111,289,0.38
+unexpected-bios-firmware-version,PRETEST,2,289,0.01
+unexpected-bios-firmware-version,BFT,1,289,0.0
+unexpected-bmc-firmware-version,FW update,71,83,0.86
+unexpected-bmc-firmware-version,FAT,12,83,0.14
+unknown-dimm-errors,SDC,13,21,0.62
+unknown-dimm-errors,RUNIN,5,21,0.24
+unknown-dimm-errors,FAT,3,21,0.14
+unknown-pcie-location,FAT,423,1091,0.39
+unknown-pcie-location,RUNIN,261,1091,0.24
+unknown-pcie-location,PRETEST,181,1091,0.17
+unknown-pcie-location,SDC,130,1091,0.12
+unknown-pcie-location,BFT,88,1091,0.08
+unknown-pcie-location,RMA_BFT,7,1091,0.01
+unknown-pcie-location,L10-ORT-DRDT,1,1091,0.0
+unrecognized_gpn-exception,FAT,35,40,0.88
+unrecognized_gpn-exception,SDC,2,40,0.05
+unrecognized_gpn-exception,RUNIN,1,40,0.03
+unrecognized_gpn-exception,FV,1,40,0.03
+unrecognized_gpn-exception,PRETEST,1,40,0.03
+upper-critical-limit-violated,FAT,2,2,1.0
+user-triggered-abort,BFT,9,9,1.0
+validation-error,FAT,37,57,0.65
+validation-error,BFT,13,57,0.23
+validation-error,RMA_BFT,7,57,0.12
+value-error-exception,SDC,113,261,0.43
+value-error-exception,RUNIN,92,261,0.35
+value-error-exception,FAT,34,261,0.13
+value-error-exception,BFT,11,261,0.04
+value-error-exception,PRETEST,5,261,0.02
+value-error-exception,Default Test Step,2,261,0.01
+value-error-exception,L10-ORT-DRDT,2,261,0.01
+value-error-exception,RMA_BFT,2,261,0.01
+z-m-q-error-exception,BFT,8,8,1.0

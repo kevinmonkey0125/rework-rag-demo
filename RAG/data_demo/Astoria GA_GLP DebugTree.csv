@@ -1,0 +1,1284 @@
+Date range: 01/24/2025 - 03/27/2025,Diag version: v4.0.11.6-RC03,Cycle count 1,,Cycle count 2,,Cycle count 3,,Cycle count 4,,Cycle count 5,
+Symptom label,Symptom message,Category,Debug/Repair suggestions,Category,Debug/Repair suggestions,Category,Debug/Repair suggestions,Category,Debug/Repair suggestions,Category,Debug/Repair suggestions
+Diorite SSH Connection Failed,"Create Diorite SSH Connection failed.
+Can not connect to Diorite IP: 'fd00::4001:A9FF:FEFE:A9FB'",Retest,1. Retest on a different slot,Repair 2,"1. Verify NIC card power cable seating, reseat if not proper seated.
+2. Visual inspection on NIC card
+2.1 If no physical damage found, reseat NIC card
+2.2 If physical damage found, replace NIC card",Repair 2,"1. Replace NIC card if it was not replaced already on cycle count 2, if it was replaced then replace PCIe cable.",Debug 1,"1. Verify correct MAC address is bound in SFC
+2. If MAC address is correct, replace PCIe cable if not replaced on cycle count 3
+3. Verify NIC card power cable",Debug 2,1. Confirm if motherboard replacement is needed
+Checking BMC boot readiness and get BMC IP Failed,"Failed to get IP address via telnet
+Response from command 'ip addr | grep global | grep eth1':
+ip addr | grep global | grep eth1
+root@roux:~# ",Retest,1. Retest on a different slot,Repair 1,"1. Quick visual inspection on agora
+1.1 If physical damage found, replace agora
+1.2. If no physical damage found, reseat agora",Repair 1,1. Replace agora,Debug 1,1. Try new/golden agora,Debug 2,1. Confirm if motherboard replacement is needed
+Checking BMC boot readiness and get BMC IP Failed,Switch to agora console failed.,Retest,1. Retest on a different slot,Repair 1,"1. Verify agora and gulp seating
+1.1 If physical damage found on gulp/agora, replace it.
+1.2 If physical damage found on mobo, send to Repair 2 for mobo replacement.
+2. If no physical damage found, reseat agora and gulp",Debug 2,"1. Try golden agora, try golden gulp
+2. Isolate for bad dimm
+3. Confirm mobo issue",Debug 2,"1. Try golden agora, try golden gulp
+2. Isolate for bad dimm
+3. Confirm mobo issue",Debug 2,"1. Try golden agora, try golden gulp
+2. Isolate for bad dimm
+3. Confirm mobo issue"
+DIMM infos validation failure,Component DIMM SN: (L)64GB 2RX4 PC5-4800B-RA0-1010-XT(S)802C062415480B4DFA(P)MTC40F2046S1RC48BA1(C)MCCG not found on unit,Repair 1,"1. Search for ""form factor: unknown"" on OTC debug log to identify failing dimm.
+2. Visual inspection on DIMM socket, check for socket clips to be fully closed.
+3. If dimm socket fully closed, do visual inspection on DIMM.
+3.1 If physical damage found, replace DIMM.
+3.2. If no physical damage found, swap DIMM# to DIMM##",Debug 1,"1. Verify previous repair action
+2. Failure following dimm, replace dimm
+3. Failure staying same slot, sent unit to Repair 2 to replace mobo",Debug 2,1. Verify DIMM SN is matching SFC and physical label,Debug 2,"1. Verify DIMM SN is matching SFC and physical label
+2. Isolate for bad dimm causing other dimm to be not detected.",Debug 2,"1. Verify DIMM SN is matching SFC and physical label
+2. Isolate for bad dimm causing other dimm to be not detected."
+Capture Diorite Console and Attach to log Failed,Caught Exception exception.,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 2,1. Validate with TE/FAE
+HB16 PCIe link speed and width check,PCIe device existence on 'PE2.IO0' result measured: 'False'  (limit='True'),Repair 2,"1. Verify PE2 PCIe cable for proper seating, verify PE2.IO0 HB16 card for proper seating.
+2. Swap PE2 to PE3 HB16 cards, reseat PE2 PCIe cable",Repair 2,"1. Verify previous repair action
+2. Failure following HB16 card: Replace HB16 card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on HB16 card and PCIe cable
+2.1 If physical damage found, replace HB16 card or PCIe cable",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement"
+HB16 PCIe link speed and width check,PCIe device existence on 'PE3.IO0' result measured: 'False'  (limit='True'),Repair 2,"1. Verify PE3 PCIe cable for proper seating, verify PE3.IO0 HB16 card for proper seating.
+2. Swap PE3 to PE2 HB16 cards, reseat PE3 PCIe cable",Repair 2,"1. Verify previous repair action
+2. Failure following HB16 card: Replace HB16 card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on HB16 card and PCIe cable
+2.1 If physical damage found, replace HB16 card or PCIe cable",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement"
+HB16 PCIe link speed and width check,PCIe device existence on 'PE4.IO0' result measured: 'False'  (limit='True'),Repair 2,"1. Verify PE4 PCIe cable for proper seating, verify PE4.IO0 HB16 card for proper seating.
+2. Swap PE4 to PE5 HB16 cards, reseat PE4 PCIe cable",Repair 2,"1. Verify previous repair action
+2. Failure following HB16 card: Replace HB16 card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on HB16 card and PCIe cable
+2.1 If physical damage found, replace HB16 card or PCIe cable",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement"
+HB16 PCIe link speed and width check,PCIe device existence on 'PE5.IO0' result measured: 'False'  (limit='True'),Repair 2,"1. Verify PE5 PCIe cable for proper seating, verify PE5.IO0 HB16 card for proper seating.
+2. Swap PE5to PE4 HB16 cards, reseat PE5 PCIe cable",Repair 2,"1. Verify previous repair action
+2. Failure following HB16 card: Replace HB16 card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on HB16 card and PCIe cable
+2.1 If physical damage found, replace HB16 card or PCIe cable",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+2.1 If physical damage found on mobo, send to Repair 2 for mobo replacement"
+FRU infos validation failure,Component FRU [PCIe cable] SN: 2126700804 244220063 not found on unit,Repair 2,"1. Verify PCIe cable seating.
+1.1 If PCIe cable properly seated, replace PCIe cable
+1.2 If improper PCIe cable seating, reseat PCIe cable",Debug 1,"1. Verify previous repair action
+2. Visual inspection on PCIe cable and PCIe slot on mobo
+3. Verify PCIe cable SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Visual inspection on PCIe cable and PCIe slot on mobo
+3. Verify PCIe cable SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no duplicated records, if that's the case then report to IT",Debug 2,"1. Verify previous repair action
+2. Visual inspection on PCIe cable and PCIe slot on mobo
+3. Verify PCIe cable SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no duplicated records, if that's the case then report to IT",Debug 2,"1. Verify previous repair action
+2. Visual inspection on PCIe cable and PCIe slot on mobo
+3. Verify PCIe cable SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no duplicated records, if that's the case then report to IT"
+FRU infos validation failure,Component FRU [Agora] SN: AAHFWI244400929 not found on unit,Repair 1,"1. Visual inspection on agora connector
+1.1 If no issues found, reseat agora
+1.2 If physical damage found, send to Repair 2 for mobo replacement",Repair 1,1. Replace agora,Debug 1,"1. Verify previous repair action
+2. Visual inspection on agora and agora slot on mobo
+3. Verify agora SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no issues for agora record, report to IT",Debug 2,"1. Verify previous repair action
+2. Visual inspection on agora and agora slot on mobo
+3. Verify agora SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no issues for agora record, report to IT",Debug 2,"1. Verify previous repair action
+2. Visual inspection on agora and agora slot on mobo
+3. Verify agora SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no issues for agora record, report to IT"
+FRU infos validation failure,Component FRU [Mobo] SN: ASTFWI244407426 not found on unit,Repair 1,1. Reseat agora,Debug 1,1. Verify mobo SN is matching SFC and physical label,Debug 1,1. Verify mobo SN is matching SFC and physical label,Debug 2,1. Verify mobo SN is matching SFC and physical label,Debug 2,"1. Verify mobo SN is matching SFC and physical label
+2. Verify with TE/FAE"
+FRU infos validation failure,Component  [HB16 card] SN: HABQTW243501144 not found on unit,Repair 2,"1. Verify HB16 card and PCIe cable seating:
+    If properly seated, swap HB16 card and reseat PCIe cable
+    If improper seating, reseat HB16 card or PCIe cable",Repair 2,"1. Verify previous repair action
+2. Failure following HB16 card: Replace HB16 card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on HB16 card and PCIe cable
+4. Verify HB16 card SN is matching SFC and physical label",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on HB16 card and PCIe cable
+4. Verify HB16 card SN is matching SFC and physical label",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on HB16 card and PCIe cable
+4. Verify HB16 card SN is matching SFC and physical label"
+FRU infos validation failure,Component [Gulp] SN: IPBFWI244608425 not found on unit,Repair 1,"1. Visual inspection on gulp connector
+1.1 If no issues found, reseat gulp
+1.2 If physical damage found, send to Repair 2 for mobo replacement",Repair 1,1. Replace gulp,Debug 1,"1. Verify previous repair action
+2. Visual inspection on gulp and gulp connector on mobo
+3. Verify gulp SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no issues for gulp record, report to IT",Debug 2,"1. Verify previous repair action
+2. Visual inspection on gulp and gulp connector on mobo
+3. Verify gulp SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no issues for gulp record, report to IT",Debug 2,"1. Verify previous repair action
+2. Visual inspection on gulp and gulp connector on mobo
+3. Verify gulp SN is matching SFC and physical label
+4. Verify Keyparts on SFC has no issues for gulp record, report to IT"
+FRU infos validation failure,Component [NIC card] SN: PDFCTH244003800 not found on unit,Repair 2,"1. Verify NIC card and PCIe cable seating:
+1.1 If properly seated, swap NIC card and reseat PCIe cable
+1.2 If improper seating, reseat NIC card or PCIe cable",Repair 2,"1. Verify previous repair action
+2. Failure following NIC card: Replace NIC card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on NIC card and PCIe cable
+4. Verify NIC card SN is matching SFC and physical label",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on NIC card and PCIe cable
+4. Verify NIC card SN is matching SFC and physical label",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on NIC card and PCIe cable
+4. Verify NIC card SN is matching SFC and physical label"
+FRU infos validation failure,Component [Warthog] SN: KW049419-96402 43915214 not found on unit,Repair 2,"1. Verify Warthog and PCIe cable seating:
+1.1 If properly seated, swap Warthog and reseat PCIe cable
+1.2 If improper seating, reseat warthog or PCIe cable",Repair 2,"1. Verify previous repair action
+2. Failure following Warthog: Replace Warthog
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on Warthog and PCIe cable
+4. Verify Warthog SN is matching SFC and physical label",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on Warthog and PCIe cable
+4. Verify Warthog SN is matching SFC and physical label",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Visual inspection on Warthog and PCIe cable
+4. Verify Warthog SN is matching SFC and physical label"
+no-host-console-output,No console output for 600 seconds.,Repair 1,"1. Visual inspection on agora and gulp, as well as connectors for them on mobo
+1.1 If no issues found, reseat agora and reseat gulp
+2. Check front buttons on agora to be not stuck
+2.1 If any button stuck, replace agora",Debug 1,"1. Validate previous repair
+2. Try golden agora, try golden gulp
+2.1 If bad gulp/agora detected, replace gulp/agora
+2.2 If unit not working with golden parts, send to Debug 2 for further debug",Debug 2,"1. Visual inspection on mobo
+2. Isolate for bad dimm",Debug 2,"1. Visual inspection on mobo
+2. Isolate for bad dimm",Debug 2,"1. Visual inspection on mobo
+2. Isolate for bad dimm"
+The sensor count of Config_check_HW is not matched.,"Total number of sensors Expected: 180, Current: 179, device_id: , unit:  ---
+ Missing:['MB OUTLET T 1,degrees C'] 
+ Extra:[]",Repair 1,"1. Swap temp sensor I2COOL_0 to temp sensor I2COOL_1
+2. Wipe connector terminals with alcohol
+",Debug 1,"1. If failure following temp sensor, replace it
+2. If failure staying on same location, verify for contamination on connector",Debug 2,1. Try new/golden temp sensor,Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+The sensor count of Config_check_HW is not matched.,"Total number of sensors Expected: 180, Current: 179, device_id: , unit:  ---
+ Missing:['MB OUTLET T 2,degrees C'] 
+ Extra:[]",Repair 1,"1. Swap temp sensor I2COOL_1 to temp sensor I2COOL_2
+2. Wipe connector terminals with alcohol",Debug 1,"1. If failure following temp sensor, replace it
+2. If failure staying on same location, verify for contamination on connector",Debug 2,1. Try new/golden temp sensor,Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+The sensor count of Config_check_HW is not matched.,"Total number of sensors Expected: 180, Current: 179, device_id: , unit:  ---
+ Missing:['MB OUTLET T 3,degrees C'] 
+ Extra:[]",Repair 1,"1. Swap temp sensor I2COOL_2 to temp sensor I2COOL_1
+2. Wipe connector terminals with alcohol",Debug 1,"1. If failure following temp sensor, replace it
+2. If failure staying on same location, verify for contamination on connector",Debug 2,1. Try new/golden temp sensor,Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+The sensor count of Config_check_HW is not matched.,"Total number of sensors Expected: 185, Current: 180, device_id: , unit:  ---
+ Missing:['P48V VIN,volts', 'HOTSWAP PIN,watts', 'HOTSWAP T,degrees C', 'P48V IOUT,amps', 'HOTSWAP T,margin C'] 
+ Extra:[]",Retest,1. Retest,Repair 1,"1. Visual inspection on gulp connector
+1.1 If no issues found, reseat gulp
+1.2 If physical damage found, send to Repair 2 for mobo replacement",Repair 1,1. Replace Gulp,Debug 1,1. Try new/golden gulp,Debug 2,1. Confirm mobo replacement
+test-completion-missing-error-maxcorestim,Diag execution failed.,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If no error seen for dimm, retest for 2nd time
+1.2 If error seen for dimm, replace dimm directly",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo"
+Diorite location validation failure,Component Diorite SN: PDFQMB244401662 not found on unit,Repair 2,"1. Verify PCIe cable for proper seating, verify NIC card for proper seating
+2. Visual inspection on NIC card
+2.1 If physical damage found, replace NIC card
+2.2 If no physical damage found, do one of the following based on failing NIC card:
+Swap PE0 to PE1 NIC card, reseat PE0 cable
+Swap PE1 to PE0 NIC card, reseat PE1 cable
+Swap PE6 to PE7 NIC card, reseat PE6 cable
+Swap PE7 to PE6 NIC card, reseat PE7 cable",Repair 2,"1. Verify previous repair action
+2. Failure following NIC card: Replace NIC card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PCIe socket on mobo
+3. Visual inspection on NIC card and PCIe cable",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe socket on mobo
+3. Visual inspection on NIC card and PCIe cable",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe socket on mobo
+3. Visual inspection on NIC card and PCIe cable"
+Diorite location validation failure,"Component Diorite SN PDFCTH242518402 location: PE7.IO0, expected location: PE1.IO0",Repair 2,1. Swap PE# to PE## NIC card in SFC,Debug 1,"1. Verify previous repair action
+2. Verify NIC SN is matching SFC and physical label",Debug 1,"1. Verify previous repair action
+2. Verify NIC SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify NIC SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify NIC SN is matching SFC and physical label"
+Diorite PCIe link speed and width check,PCIe device link width at /phys/PE0/IO0:device:dna:lan result measured: 'x8'  (limit='x16'),Repair 2,"1. Verify PE0 PCIe cable for proper seating, verify PE0.IO0 NIC card for proper seating
+1.1 Reseat NIC card or PCIe cable if finding seating issue
+2. Visual inspection on NIC card and PCIe cable
+2.1 If physical damage found, replace NIC card or PCIe cable
+2.2 If no physical damage found, swap PE0 to PE1 NIC card, reseat PE0 cable",Repair 2,"1. Verify previous repair action
+2. Failure following NIC card: Replace NIC card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PE0 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE0 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE0 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found"
+Diorite PCIe link speed and width check,PCIe device link width at /phys/PE1/IO0:device:dna:lan result measured: 'x8'  (limit='x16'),Repair 2,"1. Verify PE1 PCIe cable for proper seating, verify PE1.IO0 NIC card for proper seating
+1.1 Reseat NIC card or PCIe cable if finding seating issue
+2. Visual inspection on NIC card and PCIe cable
+2.1 If physical damage found, replace NIC card or PCIe cable
+2.2 If no physical damage found, swap PE1 to PE0 NIC card, reseat PE1 cable",Repair 2,"1. Verify previous repair action
+2. Failure following NIC card: Replace NIC card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PE1 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE1 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE1 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found"
+Diorite PCIe link speed and width check,PCIe device link speed at /phys/PE6/IO0:device:dna:lan result measured: '8.0GT/s'  (limit='16.0GT/s'),Repair 2,"1. Verify PE6 PCIe cable for proper seating, verify PE6.IO0 NIC card for proper seating
+1.1 Reseat NIC card or PCIe cable if finding seating issue
+2. Visual inspection on NIC card and PCIe cable
+2.1 If physical damage found, replace NIC card or PCIe cable
+2.2 If no physical damage found, swap PE6 to PE7 NIC card, reseat PE6 cable",Repair 2,"1. Verify previous repair action
+2. Failure following NIC card: Replace NIC card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PE6 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE6 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE6 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found"
+Diorite PCIe link speed and width check,PCIe device link speed at /phys/PE7/IO0:device:dna:lan result measured: '2.5GT/s'  (limit='16.0GT/s'),Repair 2,"1. Verify PE7 PCIe cable for proper seating, verify PE7.IO0 NIC card for proper seating
+1.1 Reseat NIC card or PCIe cable if finding seating issue
+2. Visual inspection on NIC card and PCIe cable
+2.1 If physical damage found, replace NIC card or PCIe cable
+2.2 If no physical damage found, swap PE7 to PE6 NIC card, reseat PE7 cable",Repair 2,"1. Verify previous repair action
+2. Failure following NIC card: Replace NIC card
+3. Failure staying on same slot: Replace PCIe cable",Debug 1,"1. Validate previous repair actions
+2. Visual inspection on PE7 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE7 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PE7 PCIe socket on mobo, replace mobo if bent pin found
+3. Visual inspection on NIC card and PCIe cable, replace NIC card or PCIe cable if physical damage found"
+Lower critical limit violated,"Got 10 violations, exceeding threshold of 0 for sensor fan0 tach.",Repair 1,"1. Verify FAN0 seating
+2. Swap FAN0 to FAN1",Repair 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+3. If failure is staying on same slot, do visual inspection on mobo, sent to Debug 1 to confirm mobo replacement is needed",Debug 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue"
+Lower critical limit violated,"Got 10 violations, exceeding threshold of 0 for sensor fan1 tach.",Repair 1,"1. Verify FAN1 seating
+2. Swap FAN1 to FAN0",Repair 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+3. If failure is staying on same slot, do visual inspection on mobo, sent to Debug 1 to confirm mobo replacement is needed",Debug 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue"
+Lower critical limit violated,"Got 10 violations, exceeding threshold of 0 for sensor fan2 tach.",Repair 1,"1. Verify FAN2 seating
+2. Swap FAN2 to FAN3",Repair 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+3. If failure is staying on same slot, do visual inspection on mobo, sent to Debug 1 to confirm mobo replacement is needed",Debug 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue"
+Lower critical limit violated,"Got 10 violations, exceeding threshold of 0 for sensor fan3 tach.",Repair 1,"1. Verify FAN3 seating
+2. Swap FAN3 to FAN2",Repair 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+3. If failure is staying on same slot, do visual inspection on mobo, sent to Debug 1 to confirm mobo replacement is needed",Debug 1,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. If failure is following FAN, then replace FAN
+2. If failure is staying on same slot, do visual inspection on mobo
+3. Confirm mobo issue"
+Lower critical limit violated,"Got 10 violations, exceeding threshold of 0 for sensor fan4 tach.",Repair 1,"1. Visual inspection for Gulp connector on mobo
+2. Reseat Gulp",Repair 1,1. Replace Gulp,Debug 1,"1. Verify previous repair action
+2. Try new/golden Gulp
+3. Visual inspection on Gulp connector on mobo, confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden Gulp
+3. Visual inspection on Gulp connector on mobo, confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden Gulp
+3. Visual inspection on Gulp connector on mobo, confirm mobo issue"
+Lower critical limit violated,"Got 10 violations, exceeding threshold of 0 for sensor fan5 tach.",Repair 1,"1. Visual inspection for Gulp connector on mobo
+2. Reseat Gulp",Repair 1,1. Replace Gulp,Debug 1,"1. Verify previous repair action
+2. Try new/golden Gulp
+3. Visual inspection on Gulp connector on mobo, confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden Gulp
+3. Visual inspection on Gulp connector on mobo, confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden Gulp
+3. Visual inspection on Gulp connector on mobo, confirm mobo issue"
+Lower critical limit violated,"Got 11 violations, exceeding threshold of 0 for sensor RTC 3V.",Repair 1,"1. Visual inspection for Battery and battery holder
+2. Reseat battery
+3. Reseat agora",Repair 1,1. Replace RTC 3V battery,Debug 1,"1. Verify previous repair action
+2. Verify battery voltage to be higher than 3VDC
+3. Try new/golden agora",Debug 2,"1. Verify previous repair action
+2. Verify battery voltage to be higher than 3VDC
+3. Try new/golden agora
+4. Discard short/open connection on mobo RTC circuitry",Debug 2,"1. Verify previous repair action
+2. Verify battery voltage to be higher than 3VDC
+3. Try new/golden agora
+4. Discard short/open connection on mobo RTC circuitry"
+Check boot number Failed,Send command '/usr/local/bin/gsys bootnum read' failed. Failure Info: Exception message: [Errno 104] Connection reset by peer,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If no error seen for dimm, retest for 2nd time
+1.2 If error seen for dimm, replace dimm directly",Debug 2,1. Isolate for bad dimm,Debug 2,"1. Verify previous repair action
+2. Confirm mobo issue"
+pcierrors-high-lane_error-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-lane_error-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-lane_error-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-lane_error-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-lane_error-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-lane_error-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-lane_error-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-lane_error-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+Total Sensors fail,"total number of sensors is not expected value:[136](actual:135)-----------
+ Missing:['MB OUTLET T 1,degrees C;']
+ Extra:[]
+",Repair 1,"1. Swap temp sensor I2COOL_0 to temp sensor I2COOL_1
+2. Wipe connector terminals with alcohol
+",Debug 1,"1. If failure following temp sensor, replace it
+2. If failure staying on same location, verify for contamination on connector",Debug 2,1. Try new/golden temp sensor,Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+Total Sensors fail,"total number of sensors is not expected value:[136](actual:135)-----------
+ Missing:['MB OUTLET T 2,degrees C;']
+ Extra:[]
+",Repair 1,"1. Swap temp sensor I2COOL_1 to temp sensor I2COOL_2
+2. Wipe connector terminals with alcohol",Debug 1,"1. If failure following temp sensor, replace it
+2. If failure staying on same location, verify for contamination on connector",Debug 2,1. Try new/golden temp sensor,Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+Total Sensors fail,"total number of sensors is not expected value:[136](actual:135)-----------
+ Missing:['MB OUTLET T 3,degrees C;']
+ Extra:[]
+",Repair 1,"1. Swap temp sensor I2COOL_2 to temp sensor I2COOL_1
+2. Wipe connector terminals with alcohol",Debug 1,"1. If failure following temp sensor, replace it
+2. If failure staying on same location, verify for contamination on connector",Debug 2,1. Try new/golden temp sensor,Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+Total Sensors fail,"total number of sensors is not expected value:[136](actual:132)-----------
+ Missing:['P48V VIN,Volts;', 'HOTSWAP PIN,Watts;', 'HOTSWAP T,degrees C;', 'P48V IOUT,Amps;']
+ Extra:[]
+",Retest,1. Retest,Repair 1,"1. Visual inspection on gulp connector
+1.1 If no issues found, reseat gulp
+1.2 If physical damage found, send to Repair 2 for mobo replacement",Repair 1,1. Replace Gulp,Debug 1,1. Try new/golden gulp,Debug 2,1. Confirm mobo replacement
+test-completion-missing-error-sat,Diag execution failed.,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+2. Reseat all dimms",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo"
+DUT is not for test,"The DUT, FWI2503-02942, is not for test. (Level: 2)
+Response from shop floor: Status code is '422' with message 'Serial Number is not at this station.'.",Debug 1,"1. Verify current station in SFC
+2. If unit is for 'Repair' in SFC, fix unit based on current failure.",Debug 1,"1. Verify current station in SFC
+2. If unit is for 'Repair' in SFC, fix unit based on current failure.",Debug 2,"1. Verify current station in SFC
+2. Verify for missing or duplicated SNs on keyparts
+3. If unit is for 'Repair' in SFC, fix unit based on current failure.",Debug 2,"1. Verify current station in SFC
+2. Verify for missing or duplicated SNs on keyparts
+3. If unit is for 'Repair' in SFC, fix unit based on current failure.",Debug 2,"1. Verify current station in SFC
+2. Verify for missing or duplicated SNs on keyparts
+3. If unit is for 'Repair' in SFC, fix unit based on current failure."
+"Validate Diorite PN, SN and installed slot Failed",Send command 'htool --usb_loc 1-1.1 target reset on' failed.,Repair 2,"1. Verify for proper seating on PE0 PCIe cable
+1.1 If cable not fully seated, just reseat cable.
+1.2 If cable is properly seated, swap PE0 to PE1 PCIe cable
+2. Reseat agora",Debug 1,"1. Verify previous repair action
+2. If failure is following PCIe cable, replace PCIe cable
+3. If failure is staying on same slot, try golden NIC.",Debug 2,"1. Verify previous repair action
+2. Try new/golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden agora
+3. Confirm mobo issue"
+"Validate Diorite PN, SN and installed slot Failed","Send command 'htool --usb_loc 1-1.1 target reset on' failed.
+Failure Info:
+Exception message: Timeout opening channel.",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Try new/golden Agora and PCIe cable
+2. Try new/golden NIC card
+3. Send to repair to replace the bad part",Debug 2,"1. Try new/golden Agora and PCIe cable
+2. Try new/golden NIC card
+3. Send to repair to replace the bad part"
+"Validate Diorite PN, SN and installed slot Failed",Send command 'htool --usb_loc 1-1.2 target reset on' failed.,Repair 2,"1. Verify for proper seating on PE1 PCIe cable
+1.1 If cable not fully seated, just reseat cable.
+1.2 If cable is properly seated, swap PE1 to PE0 PCIe cable
+2. Reseat agora",Debug 1,"1. Verify previous repair action
+2. If failure is following PCIe cable, replace PCIe cable
+3. If failure is staying on same slot, try golden NIC.",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue"
+"Validate Diorite PN, SN and installed slot Failed","Send command 'htool --usb_loc 1-1.2 target reset on' failed.
+Failure Info:
+Exception message: Timeout opening channel.",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Try golden Agora and PCIe cable
+2. Try golden NIC card
+3. Send to repair to replace the bad part",Debug 2,"1. Try golden Agora and PCIe cable
+2. Try golden NIC card
+3. Send to repair to replace the bad part"
+"Validate Diorite PN, SN and installed slot Failed",Send command 'htool --usb_loc 1-1.7.1 target reset on' failed.,Repair 2,"1. Verify for proper seating on PE6 PCIe cable
+1.1 If cable not fully seated, just reseat cable.
+1.2 If cable is properly seated, swap PE6 to PE7 PCIe cable
+2. Reseat agora",Debug 1,"1. Verify previous repair action
+2. If failure is following PCIe cable, replace PCIe cable
+3. If failure is staying on same slot, try golden NIC.",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue"
+"Validate Diorite PN, SN and installed slot Failed","Send command 'htool --usb_loc 1-1.7.1 target reset on' failed.
+Failure Info:
+Exception message: Timeout opening channel.",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Try golden Agora and PCIe cable
+2. Try golden NIC card
+3. Send to repair to replace the bad part",Debug 2,"1. Try golden Agora and PCIe cable
+2. Try golden NIC card
+3. Send to repair to replace the bad part"
+"Validate Diorite PN, SN and installed slot Failed",Send command 'htool --usb_loc 1-1.7.2 target reset on' failed.,Repair 2,"1. Verify for proper seating on PE7 PCIe cable
+1.1 If cable not fully seated, just reseat cable.
+1.2 If cable is properly seated, swap PE7 to PE6 PCIe cable
+2. Reseat agora",Debug 1,"1. Verify previous repair action
+2. If failure is following PCIe cable, replace PCIe cable
+3. If failure is staying on same slot, try golden NIC.",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try golden agora
+3. Confirm mobo issue"
+"Validate Diorite PN, SN and installed slot Failed","Send command 'htool --usb_loc 1-1.7.2 target reset on' failed.
+Failure Info:
+Exception message: Timeout opening channel.",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Try golden Agora and PCIe cable
+2. Try golden NIC card
+3. Send to repair to replace the bad part",Debug 2,"1. Try golden Agora and PCIe cable
+2. Try golden NIC card
+3. Send to repair to replace the bad part"
+ncsi_cable-preparation-error,Failed to detect NCSI Cable on Diorite CN,Repair 1,"1. Verify proper seating for NCSI cable on both ends
+2. Reseat NCSI cable on both ends",Repair 1,"1. Verify previous repair action
+2. Replace NCSI cable",Repair 2,1. Replace NIC card,Debug 1,"1. Try new/golden NCSI cable
+2. Try new/golden NIC card
+3. Confirm mobo issue",Debug 2,"1. Try new/golden NCSI cable
+2. Try new/golden NIC card
+3. Confirm mobo issue"
+test-completion-missing-error-memtester,Diag execution failed.,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo"
+test-completion-missing-error-rainbow,Diag execution failed.,Retest,1. Retest,Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If no error seen for dimm, retest for 2nd time
+1.2 If error seen for dimm, replace dimm directly",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo"
+test-completion-missing-error-error_monitor,Diag execution failed.,Retest,1. Retest,Retest,1. Retest,Debug 1,1. Discard unit is not rebooting unexpectedly,Debug 2,1. Discard unit is not rebooting unexpectedly,Debug 2,1. Verify failure with TE/FAE
+Hardware config check failed,Send command '/usr/local/bin/gsys -k fru info' failed.,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Discard unit is rebooting unexpectedly, if that is the case isolate for bad dimm",Debug 2,"1. Discard unit is rebooting unexpectedly, if that is the case isolate for bad dimm",Debug 2,"1. If unit keeps rebooting after dimm isolation process, confirm mobo replacement"
+CPU location validation failure,Component CPU SN: 9LS6995W20093_100-000000782 not found on unit,Repair 1,1. Swap CPU SNs in SFC,Debug 1,1. Verify CPU SN match physically and SFC,Debug 2,1. Verify CPU SN match physically and SFC,Debug 2,1. Verify CPU SN match physically and SFC,Debug 2,1. Verify CPU SN match physically and SFC
+Update Google BIOS Failed,"Update BIOS failed.
+bios.bin
+bios.sig",Retest,1. Retest,Repair 1,1. Replace agora,Debug 1,1. Validate correct BIOS version by test rack,Debug 2,"1. Validate correct BIOS version by test rack
+2. Confirm mobo replacement",Debug 2,"1. Validate correct BIOS version by test rack
+2. Confirm mobo replacement"
+Update Google BIOS Failed,"Send command '/export/hda3/meltan/biosintegrity/biosintegrity --expected_bios_version=""0.20230627.0-0""' failed.
+Failure Info:",Retest,1. Retest,Repair 1,1. Replace agora,Debug 1,1. Validate correct BIOS version by test rack,Debug 2,"1. Validate correct BIOS version by test rack
+2. Confirm mobo replacement",Debug 2,"1. Validate correct BIOS version by test rack
+2. Confirm mobo replacement"
+DMA stress test Failed,Send command 'sh /root/run_dmatest_host_per.sh 0x100000 0x1C2000' failed.,Retest,1. Retest,Repair 1,1. Reseat agora,Debug 1,"1. Try golden agora
+2. Isolate for bad HB16 or PCIe cable",Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+DMA stress test Failed,Send command 'ls /root/run_dmatest_host_per.sh' failed.,Retest,1. Retest,Repair 1,1. Reseat agora,Debug 1,"1. Try golden agora
+2. Isolate for bad HB16 or PCIe cable",Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+DMA stress test Failed,Send command 'ls /sys/module/dmatest/parameters/' failed.,Retest,1. Retest,Repair 1,1. Reseat agora,Debug 1,"1. Try golden agora
+2. Isolate for bad HB16 or PCIe cable",Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+DMA stress test Failed,DMA channel not found in stress result,Retest,1. Retest,Repair 1,1. Reseat agora,Debug 1,"1. Try golden agora
+2. Isolate for bad HB16 or PCIe cable",Debug 2,1. Confirm mobo replacement,Debug 2,1. Confirm mobo replacement
+bad-bus,"For local bus /phys/CPU0:device:nbio0.0:pcie_root@bridge:port1.1:\nexpected speed: 16.0GT/s, actual speed: 2.5GT/s",Repair 2,"1. Verify all PCIe cables seating
+2. Reseat all PCIe cables",Debug 1,"1. Verify previous repair action
+2. Identify failing PE slot
+3. Reseat/Swap PCIe cable",Debug 2,"1. Verify previous repair action
+2. Try new/golden PCIe cable
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden PCIe cable
+3. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden PCIe cable
+3. Confirm mobo issue"
+HB16 location validation failure,Component HB16 SN: HABQTW244722653 not found on unit,Repair 2,"1. Swap PE# to PE## HB16 cards, reseat PE# PCIe cable",Debug 1,"1. Verify previous repair action
+2. Failure following HB16 card: Replace HB16 card
+3. Failure staying on same slot: Replace PCIe cable",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Confirm mobo replacement",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Confirm mobo replacement",Debug 2,"1. Validate previous repair actions
+2. Visual inspection on PCIe slot on mobo
+3. Confirm mobo replacement"
+HB16 location validation failure,"Component HB16 SN HABQTW244707620 location: PE3.IO0, expected location: PE2.IO0",Repair 2,"1. Swap PE# and PE## HB16 cards in SFC only, not physically",Debug 1,"1. Verify previous repair action
+2. Verify HB16 SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify HB16 SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify HB16 SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify HB16 SN is matching SFC and physical label"
+index-error-exception,"Caught IndexError exception.
+Traceback (most recent call last):",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,1. Validate with TE/FAE,Debug 2,1. Validate with TE/FAE
+Foxconn BMC validation Failed,"BMC bmc version' on unit: 'fbmc, dev, 23.6.0.1', expected: 'fbmc, local, 24.49.0.0'",Retest,1. Retest,Retest,1. Retest,Repair 1,1. Replace agora,Debug 1,"1. Verify if agora was replaced
+2. Verify if able to update BMC offline
+2.1 If not able to update BMC then replace agora",Debug 2,"1. Verify if agora was replaced
+2. Verify if able to update BMC offline
+2.1 If not able to update BMC then replace agora"
+Foxconn BMC validation Failed,"BMC bmc version' on unit: 'gbmc, dev, 80.35.12.1', expected: 'fbmc, local, 24.49.0.0'",Repair 1,1. Replace agora,Debug 1,"1. Verify if agora was replaced
+2. Verify BMC version is google/foxconn version
+2.1 Replace agora if google version found",Debug 2,"1. Verify if agora was replaced
+2. Verify BMC version is google/foxconn version
+2.1 Replace agora if google version found",Debug 2,"1. Verify if agora was replaced
+2. Verify BMC version is google/foxconn version
+2.1 Replace agora if google version found",Debug 2,"1. Verify if agora was replaced
+2. Verify BMC version is google/foxconn version
+2.1 Replace agora if google version found"
+Check Firmware Fail,"MB CPLD version is Not get the version, but expect version should be  2.5.0.0",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Repair 1,1. Replace agora,Debug 2,"1. Verify FW version that is not matching belings to agora or mobo.
+2. Replace agora or mobo"
+test-completion-missing-error-amd_cpu_power_virus,Diag execution failed.,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If no error seen for dimm, retest for 2nd time
+1.2 If error seen for dimm, replace dimm directly",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo"
+Diorite Serial Number,value='PDFCTH242516932' lower_limit='PDFCTH242516934' upper_limit='',Debug 1,1. Verify NIC SN is matching on FRU and physical label,Debug 1,1. Verify NIC SN is matching on FRU and physical label,Debug 2,1. Verify NIC SN is matching on FRU and physical label,Debug 2,1. Verify NIC SN is matching on FRU and physical label,Debug 2,1. Verify NIC SN is matching on FRU and physical label
+Update Google BMC Failed,"Send command '/export/hda3/meltan/bmcintegrity/bmcintegrity --expected_bmc_version=""gbmc_23.6.36.200""' failed.
+Failure Info:",Retest,1. Retest,Repair 1,1. Replace agora,Debug 1,1. Validate correct BMC version by test rack,Debug 2,"1. Validate correct BMC version by test rack
+2. Confirm mobo replacement",Debug 2,"1. Validate correct BMC version by test rack
+2. Confirm mobo replacement"
+excessive-correctable-unclassified-cpu-errors,"CPU0 UNCLASSIFIED, Error type: correctable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",Retest,1. Retest,Debug 1,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo"
+excessive-correctable-unclassified-cpu-errors,"CPU1 UNCLASSIFIED, Error type: correctable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",Retest,1. Retest,Debug 1,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo"
+Create Host SSH Connection failed,[Errno -5] No address associated with hostname,Retest,1. Retest,Debug 1,"1. Verify PCIe cables seating
+2. Verify all NIC cards having correct IP by booting up unit in moba
+3. Replace NIC card if not able to get IP",Debug 2,"1. Verify PCIe cables seating
+2. Verify all NIC cards having correct IP by booting up unit in moba
+3. If NIC card has been replaced, replace PCIe cable",Debug 2,"1. Verify PCIe cables seating
+2. Verify all NIC cards having correct IP by booting up unit in moba
+3. If NIC card and PCIe cable has been replaced, confirm mobo replacement",Debug 2,"1. Verify PCIe cables seating
+2. Verify all NIC cards having correct IP by booting up unit in moba
+3. If NIC card and PCIe cable has been replaced, confirm mobo replacement"
+Create Host SSH Connection failed,Unable to connect to 192.168.200.238: [Errno 113] No route to host,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Verify PCIe cables seating
+2. Verify all NIC cards having correct IP by booting up unit in moba
+3. Replace NIC card if not able to get IP",Debug 2,"1. Verify PCIe cables seating
+2. Verify all NIC cards having correct IP by booting up unit in moba
+3. If NIC card has been replaced, replace PCIe cable",Debug 2,"1. Verify PCIe cables seating
+2. Verify all NIC cards having correct IP by booting up unit in moba
+3. If NIC card and PCIe cable has been replaced, confirm mobo replacement"
+unknown-pcie-location,"PCIe location: '0000:01:01.4', is not found.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+unknown-pcie-location,"PCIe location: '0000:21:01.5', is not found.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+unknown-pcie-location,"PCIe location: '0000:41:00.0', is not found.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+unknown-pcie-location,"PCIe location: '0000:61:00.0', is not found.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+unknown-pcie-location,"PCIe location: '0000:81:00.0', is not found.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+unknown-pcie-location,"PCIe location: '0000:a1:00.0', is not found.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+unknown-pcie-location,"PCIe location: '0000:c1:00.3', is not found.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+unknown-pcie-location,"PCIe location: '0000:e1:01.7', is not found.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Check repair history, if PCIe cable replaced then replace NIC card
+2. If NIC card replaced, then replace PCIe cable",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+Timeout exceeded.,Thread [Thread-83196 (run)] execution exceeded the timeout limit of [1200.000000] seconds.,Retest,1. Retest,Debug 1,1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log,Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe was replaced, then replace NIC card",Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe cable and NIC card have been replaced, then replace mobo",Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe cable and NIC card have been replaced, then replace mobo"
+test-completion-missing-error-bus_check,Diag execution failed.,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo"
+Validate route of DUT Failed,"Caught AttributeError exception.
+Exception message: 'NoneType' object has no attribute 'strip'",Debug 1,"1. Verify keyparts to not have duplicated or missing SNs
+2. Ask IT to manually fix any wrong record",Debug 2,"1. Verify keyparts to not have duplicated or missing SNs
+2. Ask IT to manually fix any wrong record",Debug 2,"1. Verify keyparts to not have duplicated or missing SNs
+2. Ask IT to manually fix any wrong record",Debug 2,"1. Verify keyparts to not have duplicated or missing SNs
+2. Ask IT to manually fix any wrong record",Debug 2,"1. Verify keyparts to not have duplicated or missing SNs
+2. Ask IT to manually fix any wrong record"
+test-completion-missing-error-fan_speed,Diag execution failed.,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo"
+test-completion-missing-error-cpu_checker_burnin,Diag execution failed.,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If no error seen for dimm, retest for 2nd time
+1.2 If error seen for dimm, replace dimm directly",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+1.1 If error seen, replace dimm directly
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for all list of symptom labels to confirm real SDC failure.
+4. Look for MCE HW error related to CPU, replace mobo"
+Create Telnet and SSH connection to DUT failed,"Mobo booting failed.
+Log in OVSS fail.",Retest,1. Retest,Debug 1,1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log,Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe was replaced, then replace NIC card",Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe cable and NIC card have been replaced, then replace mobo",Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe cable and NIC card have been replaced, then replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-receiver_error-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+DIMM location validation failure,"Component DIMM SN (L)64GB 2RX4 PC5-4800B-RA0-1010-XT(S)80AD032351E10198B2(P)HMCG94MEBRA121N location: DIMM13, expected location: DIMM12",Repair 1,"1. Swap DIMM# to DIMM## in SFC only, not physically",Debug 1,"1. Verify previous repair action
+2. Verify DIMM SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify DIMM SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify DIMM SN is matching SFC and physical label",Debug 2,"1. Verify previous repair action
+2. Verify DIMM SN is matching SFC and physical label"
+Update Foxconn BMC Failed,Send command 'roux-fw-ver.sh' failed.,Retest,1. Retest,Retest,1. Retest,Repair 1,1. Reseat agora,Debug 1,"1. If not able to update BMC offline, replace agora",Debug 2,"1. If not able to update BMC offline, replace agora.
+2. If agora was already replaced, confirm mobo issue."
+Update Foxconn BMC Failed,"Send command 'curl --fail -o /run/initramfs/image-bmc http://192.168.100.10:9200/Astotia_V2A_BMC_v24.49.0.0_D_H.mtd' failed.
+Failure Info:",Retest,1. Retest,Retest,1. Retest,Repair 1,1. Reseat agora,Debug 1,"1. If not able to update BMC offline, replace agora",Debug 2,"1. If not able to update BMC offline, replace agora.
+2. If agora was already replaced, confirm mobo isue."
+test-completion-missing-error-cpu_functional,Diag execution failed.,Retest,1. Retest,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo"
+Pre Diorite firmware check on all slots Failed,No Diorite found under BMC via command 'htool usb list'.,Repair 1,"1. Reseat agora
+2. Reseat all PCIe cables",Debug 1,"1. Try new/golden agora
+2. Reseat PCIe cable for NIC card(s)",Debug 2,1. Isolate for bad PCIe cable or NIC,Debug 2,"1. Isolate for bad PCIe cable or NIC
+2. Visual inspection for PCIe slot on mobo.
+3. Confirm mobo replacement",Debug 2,"1. Isolate for bad PCIe cable or NIC
+2. Visual inspection for PCIe slot on mobo.
+3. Confirm mobo replacement"
+Pre Diorite firmware check on all slots Failed,Create SSH connection to '{}' failed.,Repair 1,"1. Reseat agora
+2. Reseat all PCIe cables",Debug 1,"1. Try golden agora
+2. Reseat PCIe cable for NIC card(s)",Debug 2,1. Isolate for bad PCIe cable or NIC,Debug 2,"1. Isolate for bad PCIe cable or NIC
+2. Visual inspection for PCIe slot on mobo.
+3. Confirm mobo replacement",Debug 2,"1. Isolate for bad PCIe cable or NIC
+2. Visual inspection for PCIe slot on mobo.
+3. Confirm mobo replacement"
+Attach booting logs to OTC failed.,"Attach booting logs to OTC failed.
+msg:Process Error to get this log:/var/log/obmc-console-host.log. Error msg:Command '['sshpass', '-p', '0penBmc', 'scp', 'root@192.168.100.89:/var/log/obmc-console-host.log', '/tmp/FWI2450-18079/']' returned non-zero exit status 1.",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,1. Validate with TE/FAE,Debug 2,1. Validate with TE/FAE
+Send command fail: stressapptest -s 30 -m 128 -C 128 -W,"Exception message: 
+Traceback (most recent call last):",Retest,1. Retest,Repair 1,1. Reseat all DIMMs,Debug 1,"1. Look for bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm",Debug 2,"1. Look fo bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo",Debug 2,"1. Look fo bad dimm on 'gsys event records list' response
+2. If unit is getting rebooted, isolate for bad dimm
+3. Look for MCE HW error related to CPU, replace mobo"
+Send command fail: /usr/local/bin/gsys -k hardware parts | grep PE | grep nic,"Exception message: 
+Traceback (most recent call last):",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Discard unit is rebooting unexpectedly, if that is the case isolate for bad dimm",Debug 2,"1. If unit keeps rebooting after dimm isolation process, confirm mobo replacement"
+Mobo boot failed,Something wrong when netboot Mobo. Please check debug log for more detail.,Retest,1. Retest,Debug 1,1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log,Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe was replaced, then replace NIC card",Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe cable and NIC card have been replaced, then replace mobo",Debug 2,"1. Replace PCIe cable showing errors “AER: Corrected error received” on debug log
+2. If PCIe cable and NIC card have been replaced, then replace mobo"
+ABORTED,,,,,,,,,,,
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-surprise_down_error-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+HB16 firmware check Failed,Send command 'cd /; tar -xvf /tmp/hb16_msvfud.tar' failed.,Retest,1. Retest,Retest,1. Retest,Repair 1,1. Reseat agora,Repair 1,1. Replace agora,Debug 2,"1. Try new/golden agora
+2. Confirm mobo replacement"
+HB16 firmware check Failed,"Check HB16 version failed
+Some HB16 firmware version can not be retrieved.",Repair 2,"1. Look for string ""map_slot_fw_version"" on debug log.
+2. Identify HB16 slot with no FW version.
+3. Swap HB16 card",Debug 1,"1. Verify if failure is following HB16 card, then replace it.
+2. If failure is staying on the same slot, then replace PCIe cable.",Debug 2,"1. Inspect for bent pins on PCIe slot on mobo.
+2. Try new/golden HB16 card.
+3. Try new/golden PCIe cable.
+4. Confirm mobo replacement.",Debug 2,"1. Inspect for bent pins on PCIe slot on mobo.
+2. Try new/golden HB16 card.
+3. Try new/golden PCIe cable.
+4. Confirm mobo replacement.",Debug 2,"1. Inspect for bent pins on PCIe slot on mobo.
+2. Try new/golden HB16 card.
+3. Try new/golden PCIe cable.
+4. Confirm mobo replacement."
+The fan count of Config_check_HW is not matched.,"Total number of fan interfaces Expected: 6, Current: 0.5, device_id: , unit:",Repair 1,"1. Visual inspection on Temp sensors, agora and gulp
+2. Reseat Temp sensors, agora and Gulp",Debug 1,"1. Verify temp sensors placed on correct position
+2. Try new/golden agora and gulp
+3. Try new/golden temp sensors
+4. Isolate for bad component and replace it",Debug 2,"1. Try new/golden agora and gulp
+2. Try new/golden temp sensors
+3. Isolate for bad component and replace it
+4. Confirm mobo replacement",Debug 2,"1. Try new/golden agora and gulp
+2. Try new/golden temp sensors
+3. Isolate for bad component and replace it
+4. Confirm mobo replacement",Debug 2,"1. Try new/golden agora and gulp
+2. Try new/golden temp sensors
+3. Isolate for bad component and replace it
+4. Confirm mobo replacement"
+unexpected-bios-firmware-version,"BIOS firmware version is not expected: actual=999999999.20231002.20410-253, expected=999999999.20240422.83220-0",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Repair 1,1. Replace agora,Debug 2,"1. Verify BIOS update offline is good
+2. Try new/golden agora
+3. Confirm mobo replacement"
+test-completion-missing-error-hwinterface_smoketest,Diag execution failed.,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Discard unit is rebooting unexpectedly, if that is the case isolate for bad dimm",Debug 2,"1. If unit keeps rebooting after dimm isolation process, confirm mobo replacement"
+The usb count of Config_check_HW is not matched.,"Total number Usb Expected: 6, Current: 4, device_id: , unit:",Repair 1,1. Reseat agora,Repair 1,1. Replace agora,Debug 1,"1. Visual inspection for agora connector on mobo
+2. Moba validation
+3. Confirm mobo replacement",Debug 2,"1. Visual inspection for agora connector on mobo
+2. Moba validation
+3. Confirm mobo replacement",Debug 2,"1. Visual inspection for agora connector on mobo
+2. Moba validation
+3. Confirm mobo replacement"
+Update Foxconn BIOS Failed,"Update BIOS failed.
+set the gpio 114 out 1...
+Flashing BIOS @/dev/
+Flashing the Bios failed in @/dev/
+set the gpio 114 out 0...",Repair 1,"1. Visual inspection on agora
+1.1 If physical damage found, then replace agora
+1.2 If no physical damage found, just reseat the agora
+2. Verify BIOS socket on agora is correctly closed",Repair 1,1. Replace agora,Debug 1,"1. Verify BIOS update offline is good
+2. Try new/golden agora",Debug 2,"1. Verify BIOS update offline is good
+2. Try new/golden agora
+3. Confirm mobo replacement",Debug 2,"1. Verify BIOS update offline is good
+2. Try new/golden agora
+3. Confirm mobo replacement"
+Update Foxconn BIOS Failed,"Update BIOS failed.
+Exception message: ",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Repair 1,1. Replace agora,Debug 2,"1. Verify BIOS update offline is good
+2. Try new/golden agora
+3. Confirm mobo replacement"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_timer_timeout-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+Dump lpcsnoop service log at initial boot Failed,Send command 'journalctl -u lpcsnoop.service > /tmp/lpcsnoop_post_codes.txt' failed.,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,1. Validate with TE/FAE,Debug 2,1. Validate with TE/FAE
+cSSD infos validation failure,Component cSSD SN: DSAKFV243905145 not found on unit,Repair 1,"1. Verify cSSD SN matches physically with SFC
+1.1 If it matches, reseat cSSD
+1.2 If it doesn't match, replace cSSD SN in SFC",Repair 1,1. Replace cSSD,Debug 1,"1. Visual inspection on cSSD slot on mobo
+2. Try new/golden cSSD
+3. Confirm mobo replacement",Debug 2,"1. Visual inspection on cSSD slot on mobo
+2. Try new/golden cSSD
+3. Confirm mobo replacement",Debug 2,"1. Visual inspection on cSSD slot on mobo
+2. Try new/golden cSSD
+3. Confirm mobo replacement"
+Caught OSError exception.,Traceback (most recent call last):,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,1. Validate with TE/FAE,Debug 2,1. Validate with TE/FAE
+io adapter location validation failure,"Component io adapter SN 2468056-1 24510AK0K location: PE1, expected location: PE0",,,,,,,,,,
+excessive-uncorrectable-core-cpu-errors,"CPU0 CORE, Error type: uncorrectable-cpu-errors, Rate 138.00 > Threshold 0.00 count/minute.",Repair 2,1. Replace mobo,Debug 1,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo"
+excessive-uncorrectable-core-cpu-errors,"CPU1 CORE, Error type: uncorrectable-cpu-errors, Rate 138.00 > Threshold 0.00 count/minute.",Repair 2,1. Replace mobo,Debug 1,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo"
+test-completion-missing-error-dna,Diag execution failed.,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Discard unit is rebooting unexpectedly, if that is the case isolate for bad dimm",Debug 2,"1. If unit keeps rebooting after dimm isolation process, confirm mobo replacement"
+host-boot-issue-transaction-timeout,Found string 'Transaction timed-out' in console output,Repair 2,"1. Look for “Transaction timed-out” string on debug log to identify PCIe port having issues.
+2. Swap PCIe cable",Repair 2,"1. Look for “Transaction timed-out” string on debug log to identify PCIe port having issues.
+1.1 If failure is following PCIe cable, then replace PCIe cable.
+1.2 If failure is following NIC card (same port failing), then replace NIC card",Debug 1,"1. Validate previous repair actions
+2. Validate unit on a different slot.
+3. Try new/golden PCIe cable and NIC card to isolate for bad part. Replace bad part",Debug 2,"1. Validate previous repair actions
+2. Validate unit on a different slot.
+3. Try new/golden PCIe cable and NIC card to isolate for bad part. Replace bad part.
+4. Confirm mobo replacement",Debug 2,"1. Validate previous repair actions
+2. Validate unit on a different slot.
+3. Try new/golden PCIe cable and NIC card to isolate for bad part. Replace bad part.
+4. Confirm mobo replacement"
+gSSD location validation failure,Component gSSD SN: KW049419-96402 43916193 not found on unit,,,,,,,,,,
+USB Over Pcie Test failed,"usb_pcie_count Expected: 1, Current: 2, device_id: , unit:",,,,,,,,,,
+USB Over Pcie Test failed,"usb_pcie_count Expected: 4, Current: 2, device_id: , unit:",,,,,,,,,,
+USB Over Pcie Test failed,"usb_pcie_count Expected: 4, Current: 3, device_id: , unit:",,,,,,,,,,
+USB Over Pcie Test failed,"usb_pcie_count Expected: 4, Current: 5, device_id: , unit:",,,,,,,,,,
+The network count of Config_check_HW is not matched.,"Total number of network interfaces Expected: 1, Current: 4, device_id: , unit:",Retest,1. Retest,Debug 1,1. Verify unit has correct GPN label,Repair 2,"1. Reseat agora
+2. Reseat all PCIe cables
+3. Reseat NIC cards",Debug 2,"1. Try new/golden agora
+2. Isolate for bad NIC card/PCIe cable",Debug 2,"1. Try new/golden agora
+2. Isolate for bad NIC card/PCIe cable
+3. Confirm mobo replacement"
+SMBus Test fail,Fail to execute command:/bin/ls /sys/bus/i2c/devices/46-0055/eeprom,,,,,,,,,,
+Diorite firmware check on usb_loc '1-1.7.2' Failed,Send command 'htool --usb_loc 1-1.7.2 target reset on' failed.,Repair 2,"1. Verify PCIe PE7 cable seating.
+2. Swap PE7 to PE6 NIC card, reseat PE7 cable",Debug 1,"1. Verify previous repair action
+2. Failure following NIC card, replace NIC.
+3. Failure staying on same slot, replace PCIe cable",Debug 2,"1. Verify previous repair action
+2. Try new/golden agora, try new/golden PCIe cable
+3. Try new/golden NIC card
+4. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden agora, try new/golden PCIe cable
+3. Try new/golden NIC card
+4. Confirm mobo issue",Debug 2,"1. Verify previous repair action
+2. Try new/golden agora, try new/golden PCIe cable
+3. Try new/golden NIC card
+4. Confirm mobo issue"
+Diorite firmware check on usb_loc '1-1.7.2' Failed,"Send command 'htool --usb_loc 1-1.7.2 spi read --start 0x03e7009f --length 15 /dev/stdout | hexdump -C' failed.
+Failure Info:
+Exception message: [Errno 104] Connection reset by peer",Retest,1. Retest,Retest,1. Retest,Repair 2,"1. Verify PCIe PE7 cable seating.
+2. Swap PE7 to PE6 NIC card, reseat PE7 cable",Debug 1,"1. Verify previous repair action
+2. Failure following NIC card, replace NIC.
+3. Failure staying on same slot, replace PCIe cable",Debug 2,"1. Verify previous repair action
+2. Try new/golden agora, try new/golden PCIe cable
+3. Try new/golden NIC card
+4. Confirm mobo issue"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_tlp-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+fan_speed-slow-fan,ASTORIA_8038 fan /phys/FAN0%%/phys/FAN0%% reported 1 measurements at 100% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-slow-fan,ASTORIA_8038 fan /phys/FAN1%%/phys/FAN1%% reported 1 measurements at 100% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-slow-fan,ASTORIA_8038 fan /phys/FAN2%%/phys/FAN2%% reported 1 measurements at 20% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-slow-fan,ASTORIA_8038 fan /phys/FAN3%%/phys/FAN3%% reported 1 measurements at 50% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-slow-fan,ASTORIA_4028 fan /phys/BIGGULP:device:fan0%%/phys/BIGGULP:device:fan0%% reported 1 measurements at 100% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-slow-fan,ASTORIA_4028 fan /phys/BIGGULP:device:fan1%%/phys/BIGGULP:device:fan1%% reported 1 measurements at 100% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+excessive-uncorrectable-unclassified-cpu-errors,"CPU0 UNCLASSIFIED, Error type: uncorrectable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",Repair 2,1. Replace mobo,Debug 1,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo"
+excessive-uncorrectable-unclassified-cpu-errors,"CPU1 UNCLASSIFIED, Error type: uncorrectable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",Repair 2,1. Replace mobo,Debug 1,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo",Debug 2,"1. Confirm 2nd time failure for same CPU socket
+2. Check for error messages related to DIMM
+2.1 Error message found related to DIMM (""Locator: ""), replace dimm directly
+2.2 No dimm related error messages, replace mobo"
+validation-error,Validation failed on sda: expected b'\xe8\xcf\x0c&X\x16su\xbd\,,,,,,,,,,
+Upload IO adapter installation point Failed,Uploading installation point to SFC failed.,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,1. Validate with TE/FAE,Debug 2,1. Validate with TE/FAE
+fan_speed-fast-fan,ASTORIA_8038 fan /phys/FAN0%%/phys/FAN0%% reported 1 measurements at 50% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-fast-fan,ASTORIA_8038 fan /phys/FAN1%%/phys/FAN1%% reported 1 measurements at 50% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-fast-fan,ASTORIA_8038 fan /phys/FAN2%%/phys/FAN2%% reported 1 measurements at 50% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-fast-fan,ASTORIA_8038 fan /phys/FAN3%%/phys/FAN3%% reported 1 measurements at 50% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-fast-fan,ASTORIA_4028 fan /phys/BIGGULP:device:fan0%%/phys/BIGGULP:device:fan0%% reported 1 measurements at 70% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+fan_speed-fast-fan,ASTORIA_4028 fan /phys/BIGGULP:device:fan1%%/phys/BIGGULP:device:fan1%% reported 1 measurements at 100% duty cycle: actual violations: 1 > maximum violations: 0,,,,,,,,,,
+Send command fail: /usr/bin/ipmitool sdr elist | grep fan,"Exception message: 
+Traceback (most recent call last):",,,,,,,,,,
+error-monitor-procedural-error,Test failed: INTERNAL: One of the monitors failed,Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Discard unit is rebooting unexpectedly, if that is the case isolate for bad dimm",Debug 2,"1. If unit keeps rebooting after dimm isolation process, confirm mobo replacement"
+unknown-dimm-errors,Dimm identifier is not found.,,,,,,,,,,
+Diorite Sanity Check - FRU Failed,,,,,,,,,,,
+Check WH RZ Sensor Fail!,Send command fail: /usr/local/bin/gsys -k sensor list | grep -E 'warthog_|razorback_' - info,,,,,,,,,,
+test-completion-missing-error-biosintegrity,Diag execution failed.,,,,,,,,,,
+sensor-monitor-no-sensor-readings,Sensor 'CPU1 VIO T' has no readings,,,,,,,,,,
+sensor-monitor-no-sensor-readings,Sensor 'MB OUTLET T 3' has no readings,,,,,,,,,,
+sensor-monitor-no-sensor-readings,Sensor 'DIMM18 T' has no readings,,,,,,,,,,
+sensor-monitor-no-sensor-readings,Sensor 'Habanero16_4' has no readings,,,,,,,,,,
+sat-bad-cpu-mce,"Bad CPU socket 0: cpu-254 has errors 1, which exceed threshold 0;cpu-62 has errors 1, which exceed threshold 0",,,,,,,,,,
+sat-bad-cpu-mce,"Bad CPU socket 1: cpu-85 has errors 1, which exceed threshold 0;cpu-21 has errors 1, which exceed threshold 0",,,,,,,,,,
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-header_log_overflow-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+type-error-exception,,,,,,,,,,,
+test-completion-missing-error-ncsi_cable,Diag execution failed.,,,,,,,,,,
+send_cmd_failure-exception,"Caught send_cmd_failure exception.
+Traceback (most recent call last):",,,,,,,,,,
+gsysd down,"Validating gsysd status for 10 times, but seems still down.",,,,,,,,,,
+PWM_TACH Test Step0 Fail !,"Send command fail: /usr/bin/ipmitool sdr elist | grep fan - Exception message: Timeout opening channel.
+Traceback (most recent call last):",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,"1. Discard unit is rebooting unexpectedly, if that is the case isolate for bad dimm
+2. Try new/golden agora",Debug 2,"1. If unit keeps rebooting after dimm isolation process, confirm mobo replacement"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-data_link_protocol_error-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-completion_timeout-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-bad_dllp-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+Fail to check diorite fan,Fail to execute command [/usr/local/bin/gsys fan list],,,,,,,,,,
+excessive-correctable-core-cpu-errors,"CPU0 CORE, Error type: correctable-cpu-errors, Rate 0.50 > Threshold 0.00 count/minute.",,,,,,,,,,
+excessive-correctable-core-cpu-errors,"CPU1 CORE, Error type: correctable-cpu-errors, Rate 0.50 > Threshold 0.00 count/minute.",,,,,,,,,,
+Diorite firmware check on usb_loc '1-1.1' Failed,Send command 'htool --usb_loc 1-1.1 target reset on' failed.,,,,,,,,,,
+Diorite firmware check on usb_loc '1-1.1' Failed,"Send command 'htool --usb_loc 1-1.1 spi read --start 0x03e7009f --length 15 /dev/stdout | hexdump -C' failed.
+Failure Info:
+Exception message: [Errno 104] Connection reset by peer",,,,,,,,,,
+Sync attachment to control server Failed,"Caught Exception exception.
+Exception message: Timeout to get the file: /tmp/lpcsnoop_post_codes.txt",,,,,,,,,,
+Send command fail: /usr/local/bin/gsys -k sensor list,"Exception message: 
+Traceback (most recent call last):",,,,,,,,,,
+j-s-o-n-decode-error-exception,"Caught JSONDecodeError exception.
+Traceback (most recent call last):",,,,,,,,,,
+Check TDP Failed,"Send command '/opt/AMD/amd-avt-genoa-2.8.29.0/AVTCMD -module pmm ""get_pmdata()""' failed.
+Failure Info:
+Exception message: 
+Traceback (most recent call last):",,,,,,,,,,
+VR version check Test failed,VR version mismatch,,,,,,,,,,
+value-error-exception,"Caught ValueError exception.
+Traceback (most recent call last):",,,,,,,,,,
+unexpected-bmc-firmware-version,"BMC firmware version is not expected: actual=open_bmc_24.49.0.0, expected=gbmc_24.44.17.201",,,,,,,,,,
+test-completion-missing-error-rootoftrustmap,Diag execution failed.,,,,,,,,,,
+task-failed-with-non-zero-code-return-code,Task return code: 1.,,,,,,,,,,
+software-exception-boot-failure,,,,,,,,,,,
+Rootoftrustmap Test Failed,,,,,,,,,,,
+rainbow-cpu-error,,,,,,,,,,,
+process-step-error-exception,"Caught ProcessStepError exception.
+Traceback (most recent call last):",,,,,,,,,,
+maxcorestim-bad-cpu-mce,"MCE CPU on socket = 0, core = 0",,,,,,,,,,
+Fail to check diorite nvme,Can not find NVME device (target addr:0001:01:00.0),,,,,,,,,,
+excessive-correctable-cache-cpu-errors,"CPU0 CACHE, Error type: correctable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",,,,,,,,,,
+excessive-correctable-cache-cpu-errors,"CPU1 CACHE, Error type: correctable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",,,,,,,,,,
+Diorite Part Number,value='1170656-01' lower_limit='1158718-03' upper_limit='',,,,,,,,,,
+Diorite firmware check on usb_loc '1-1.7.1' Failed,Send command 'htool --usb_loc 1-1.7.1 target reset on' failed.,,,,,,,,,,
+Diorite firmware check on usb_loc '1-1.7.1' Failed,"Send command 'htool --usb_loc 1-1.7.1 spi read --start 0x03e7009f --length 15 /dev/stdout | hexdump -C' failed.
+Failure Info:
+Exception message: [Errno 104] Connection reset by peer",,,,,,,,,,
+Update Google BMC on GLP Failed,"Send command '/export/hda3/meltan/bmcintegrity/bmcintegrity --expected_bmc_version=""gbmc_80.35.12.1""' failed.
+Failure Info:",,,,,,,,,,
+test-completion-missing-error-sensor_monitor,Diag execution failed.,,,,,,,,,,
+test-completion-missing-error-cssd_simple_io,Diag execution failed.,,,,,,,,,,
+Send command fail: lscpu --version,"Exception message: Timeout opening channel.
+Traceback (most recent call last):",,,,,,,,,,
+Restart PID service Failed,phosphor-pid-control.service status is not active after restarting,,,,,,,,,,
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: PDFQMB244502337, location: 0000:01:00.0, devpath: /phys/PE0/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE0 to PE1,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: PDFCTH242301197, location: 0000:21:00.0, devpath: /phys/PE1/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE1 to PE0,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: RC164-2293 244517684, location: 0000:41:00.0, devpath: /phys/PE2/IO0:device:0000_41_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: 9ADK332Q40030, location: 0000:60:01.1, devpath: /phys/CPU0:device:nbio1.1:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: 2468056-1 244775946, location: 0000:81:00.0, devpath: /phys/PE4/IO0:device:0000_81_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: 2468056-1 244805404, location: 0000:a1:00.0, devpath: /phys/PE5/IO0:device:0000_a1_00_0_11f8_4100_11f8_beef pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: 9MC6912O40006, location: 0000:c0:01.1, devpath: /phys/CPU1:device:nbio1.0:pcie_root@bridge:port1.1 pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE6 to PE7,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+pcierrors-high-replay_num_rollover-rate,"PCIe serial number: PDFQMB244300424, location: 0000:e1:00.0, devpath: /phys/PE7/IO0:device:dna:lan pcie error, Error Types: 'LANE_ERROR' are exceeding thresholds.",Repair 2,1. Swap PCIe cable PE7 to PE6,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following NIC/HB16, replace NIC/HB16
+",Debug 1,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo",Debug 2,"1. Unit keep failing with new PCIe cable or NIC/HB16, confirm mobo issue, replace mobo"
+Get Diorite data from SFC components Failed,"Caught TypeError exception.
+Exception message: expected string or bytes-like object",,,,,,,,,,
+HB16 PCIe link speed and width check Failed,Send command 'modprobe switchtec_dma; modprobe dmatest' failed.,,,,,,,,,,
+Fail to diorite 'PDFCTH244109482'FAN RPM:too slow),"diorite /phys:device:adt7473 rpm current is 0.0, but expected RPM range is 9000 ~ 20000",,,,,,,,,,
+connect to Agora console fail,Trying too many times,,,,,,,,,,
+"command execution failed: date -s ""2025-01-13 19:46:49""",Exception message: Timeout opening channel.,,,,,,,,,,
+Upper critical limit violated,"Got 12 violations, exceeding threshold of 0 for sensor fan0 tach.",,,,,,,,,,
+Upper critical limit violated,"Got 12 violations, exceeding threshold of 0 for sensor fan1 tach.",,,,,,,,,,
+Upper critical limit violated,"Got 12 violations, exceeding threshold of 0 for sensor fan2 tach.",,,,,,,,,,
+Upper critical limit violated,"Got 12 violations, exceeding threshold of 0 for sensor fan3 tach.",,,,,,,,,,
+Upper critical limit violated,"Got 13 violations, exceeding threshold of 0 for sensor CPU0 T.",,,,,,,,,,
+Upper critical limit violated,"Got 13 violations, exceeding threshold of 0 for sensor CPU1 T.",,,,,,,,,,
+Send command fail: lsusb,"Exception message: Timeout opening channel.
+Traceback (most recent call last):",,,,,,,,,,
+"SATA fio /dev/sda write BW too slow, Cur: 91127, Exp: 100000","{
+  ""fio version"" : ""fio-3.29"",
+  ""timestamp"" : 1736481916,
+  ""timestamp_ms"" : 1736481916300,
+  ""time"" : ""Fri Jan 10 04:05:16 2025"",",,,,,,,,,,
+procedural-error,Test failed with status: NOT_FOUND: GetSensors returns no sensors with the filters in GetSensorsRequest.\n=== Source Location Trace: === \nthird_party/meltan/core/hwinterface/backends/redfish/sensor.cc:206\n,,,,,,,,,,
+memtester-insufficient-memory,"Available memory: 81485152, Minimum required memory: 1347283547",,,,,,,,,,
+Fail to check diorite sensor,Fail to execute command [/usr/local/bin/gsys sensor list],,,,,,,,,,
+Fail to check diorite sensor,invalid sensor is found:,,,,,,,,,,
+Fail to check diorite 'PDFCTH244003247' FAN duty_cycle,"diorite /phys:device:adt7473 duty_cycle current is 0.00%%,  but expected range is 45.0% ~ 100.0%",,,,,,,,,,
+execution-DIMM-miscompares-error,TestStep 'execution' measurement 'DIMM-miscompares': Measurement 'value 	 {\n  number_value: 595\n}\nrange {\n  maximum {\n    number_value: 0\n  }\n  minimum {\n    number_value: 0\n  }\n}\n' is invalid: Measurement 'DIMM-miscompares' value 'number_value: 	 595\n' is more than the maximum of 'number_value: 	 0\n',,,,,,,,,,
+excessive-uncorrectable-watchdog-cpu-errors,"CPU0 WATCHDOG, Error type: uncorrectable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",,,,,,,,,,
+excessive-uncorrectable-watchdog-cpu-errors,"CPU1 WATCHDOG, Error type: uncorrectable-cpu-errors, Rate 0.20 > Threshold 0.00 count/minute.",,,,,,,,,,
+excessive-uncorrectable-cache-cpu-errors,"CPU0 CORE, Error type: uncorrectable-cpu-errors, Rate 19.60 > Threshold 0.00 count/minute.",,,,,,,,,,
+excessive-uncorrectable-cache-cpu-errors,"CPU1 CORE, Error type: uncorrectable-cpu-errors, Rate 19.60 > Threshold 0.00 count/minute.",,,,,,,,,,
+Dump lpcsnoop service log after reboot Failed,"Send command 'journalctl -u lpcsnoop.service > /tmp/lpcsnoop_post_codes.txt' failed.
+Failure Info:
+Exception message: SSH session not active",,,,,,,,,,
+Configuration Check (Hardware) Failed,Parse response failure. Response:,,,,,,,,,,
+Caught EOFError exception.,Traceback (most recent call last):,,,,,,,,,,
+AC cycle system Failed,"""Create SSH connection to '{}' failed.
+Unable to connect to 192.168.100.244: [Errno 113] No route to host""",,,,,,,,,,
+pcierrors[GA],PE0,Repair 2,1. Reseat PCIe cable PE0,Repair 2,1. Replace PCIe cable PE0,Repair 2,1. Replace NIC card PE0,Debug 1,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and NIC card,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and NIC card
+pcierrors[GA],PE2,Repair 2,1. Swap PCIe cable PE2 to PE3,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following Warthog, replace Warthog",Debug 1,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog
+pcierrors[GA],PE3,Repair 2,1. Swap PCIe cable PE3 to PE2,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following Warthog, replace Warthog",Debug 1,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog
+pcierrors[GA],PE4,Repair 2,1. Swap PCIe cable PE4 to PE5,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following Warthog, replace Warthog",Debug 1,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog
+pcierrors[GA],PE5,Repair 2,1. Swap PCIe cable PE5 to PE4,Repair 2,"1. Failure following cable, replace PCIe cable
+2. Failure following Warthog, replace Warthog",Debug 1,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog,Debug 2,1. Confirm mobo replacement if unit keeps failing with new PCIe cable and Warthog
+cache-upload-error,"PDFCTH241703347: http://192.168.101.206:8000/v3/haven/checkin: CacheServerResponse(url='http://192.168.101.206:8000/v3/haven/checkin', status_code=404",Retest,1. Retest,Retest,1. Retest,Retest,1. Retest,Debug 1,1. Validate with TE/FAE,Debug 2,1. Validate with TE/FAE
